@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% block title %}Cek Kewajaran Harga{% endblock %}
+
+{% block content %}
+  <main class="card">
+    <div class="eyebrow">Susenas &amp; Seruti — Kota Tasikmalaya</div>
+    <h1>Cek Kewajaran Harga</h1>
+    <p class="subtitle">Cari komoditas, masukkan harga hasil wawancara, dan lihat apakah wajar atau tidak.</p>
+
+    <div class="field">
+      <label for="search">Komoditas</label>
+      <div class="search-wrap">
+        <input type="text" id="search" placeholder="Ketik nama komoditas... misal: beras, cabai, listrik" autocomplete="off">
+        <div id="suggestions" class="suggestions hidden"></div>
+      </div>
+    </div>
+
+    <div id="detail" class="detail hidden">
+      <div class="detail-row">
+        <span class="detail-label">Sumber</span>
+        <span id="detail-sumber" class="detail-value"></span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Satuan</span>
+        <span id="detail-satuan" class="detail-value"></span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Batas wajar</span>
+        <span id="detail-range" class="detail-value mono"></span>
+      </div>
+    </div>
+
+    <div id="posisi-box" class="posisi-box hidden">
+      <div class="posisi-track">
+        <div id="posisi-fill" class="posisi-fill"></div>
+        <div id="posisi-marker" class="posisi-marker"></div>
+      </div>
+      <div class="posisi-labels">
+        <span id="posisi-min" class="mono"></span>
+        <span id="posisi-caption"></span>
+        <span id="posisi-max" class="mono"></span>
+      </div>
+    </div>
+
+    <div id="field-nama-lain" class="field hidden">
+      <label for="nama-lain">Tuliskan nama komoditas</label>
+      <input type="text" id="nama-lain" placeholder="Misal: kerupuk udang, teh herbal, dsb.">
+    </div>
+
+    <div id="field-satuan-lain" class="field hidden">
+      <label for="satuan-lain">Tuliskan satuan</label>
+      <input type="text" id="satuan-lain" placeholder="Misal: Kg, Liter, Butir, dsb.">
+    </div>
+
+    <div class="field">
+      <label for="harga">Harga hasil wawancara (Rp)</label>
+      <input type="number" id="harga" placeholder="0" inputmode="numeric" disabled>
+    </div>
+
+    <div id="status-box" class="status-box hidden">
+      <div id="status-stamp" class="stamp"></div>
+      <p id="status-caption" class="status-caption"></p>
+    </div>
+
+    <button id="btn-catat" class="btn-catat" disabled>Cek &amp; Catat</button>
+  </main>
+{% endblock %}
+
+{% block scripts %}
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+{% endblock %}

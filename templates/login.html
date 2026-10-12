@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Masuk{% endblock %}
+
+{% block content %}
+  <main class="card login-card">
+    <div class="eyebrow">Akses Terbatas</div>
+    <h1>Masuk ke UKIR</h1>
+    <p class="subtitle">Alat untuk membantu cek kewajaran dan prediksi harga komoditas di Kota Tasikmalaya.</p>
+
+    <form method="POST" autocomplete="off">
+      <div class="field">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password"
+               placeholder="••••••••" autofocus required>
+      </div>
+
+      {% if error %}
+        <p class="login-error">{{ error }}</p>
+      {% endif %}
+
+      <button type="submit" class="btn-catat">Masuk</button>
+    </form>
+  </main>
+  <p class="login-footnote">© 2026 UKIR — Dibuat sebagai bagian dari Kerja Praktek.</p>
+{% endblock %}

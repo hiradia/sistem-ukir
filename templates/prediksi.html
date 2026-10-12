@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+{% block title %}Prediksi Harga{% endblock %}
+
+{% block content %}
+<section class="page-wide">
+  <div class="eyebrow">PIHPS — Kota Tasikmalaya</div>
+  <h1 class="hero-title small">Prediksi Harga</h1>
+  <p class="hero-subtitle left">
+    Prediksi tren harga 6 bulan ke depan berdasarkan data historis harian
+    Pusat Informasi Harga Pangan Strategis (PIHPS - Bank Indonesia).
+  </p>
+
+  <!-- ============ 1. RINGKASAN SEMUA KOMODITAS ============ -->
+  <h3 class="ringkasan-title" style="margin-bottom:10px;">Ringkasan -- semua komoditas</h3>
+  <div id="ringkasan-grid" class="ringkasan-komoditas-grid"></div>
+
+  <!-- ============ 2 & 3. DETAIL / PERBANDINGAN (satu chart, dua mode) ============ -->
+  <div class="prediksi-toolbar">
+    <div class="mode-switch">
+      <button type="button" class="mode-btn active" data-mode="detail">Detail 1 komoditas</button>
+      <button type="button" class="mode-btn" data-mode="bandingin">Bandingkan beberapa</button>
+    </div>
+  </div>
+
+  <div class="field" id="wrap-pilih-tunggal" style="max-width: 320px;">
+    <label for="pilih-komoditas">Pilih komoditas</label>
+    <div class="select-wrap">
+      <select id="pilih-komoditas">
+        {% for nama in daftar_komoditas %}
+        <option value="{{ nama }}" {{ 'selected' if loop.first else '' }}>{{ nama }}</option>
+        {% endfor %}
+      </select>
+    </div>
+  </div>
+
+  <div class="field hidden" id="wrap-pilih-multi">
+    <label>Pilih komoditas yang ingin dibandingkan (2-5 komoditas)</label>
+    <div id="checkbox-komoditas" class="checkbox-grid">
+      {% for nama in daftar_komoditas %}
+      <label class="checkbox-item">
+        <input type="checkbox" name="komoditas-multi" value="{{ nama }}">
+        <span>{{ nama }}</span>
+      </label>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="ringkasan-card" style="margin-top: 12px;">
+    <div style="display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:8px;">
+      <h3 class="ringkasan-title" id="chart-judul" style="margin:0 12px 0 0;"></h3>
+      <span id="chart-terakhir" class="mono" style="font-size:12px; color: var(--ink-soft);"></span>
+    </div>
+    <div id="chart-legend" class="chart-legend"></div>
+    <div class="chart-wrap" style="height: 340px; margin-top: 12px;">
+      <canvas id="chart-prediksi"></canvas>
+    </div>
+  </div>
+
+  <div class="ringkasan-card" id="card-tabel-detail" style="margin-top: 16px;">
+    <h3 class="ringkasan-title">Angka prediksi 6 bulan ke depan</h3>
+    <table class="k-table">
+      <thead>
+        <tr><th>Bulan</th><th>Prediksi</th><th>Kisaran (80%)</th></tr>
+      </thead>
+      <tbody id="tabel-prediksi"></tbody>
+    </table>
+  </div>
+
+  <!-- ============ 4. CEK HARGA DI TANGGAL/BULAN TERTENTU ============ -->
+  <div class="ringkasan-card" style="margin-top: 16px;">
+    <h3 class="ringkasan-title">Cek harga di bulan tertentu</h3>
+    <p style="font-size:13px; color:var(--ink-soft); margin: 4px 0 14px;">
+      Tidak perlu baca chart atau scroll tabel. Langsung pilih komoditas dan bulan, angkanya akan otomatis keluar.
+    </p>
+    <div class="cek-tanggal-row">
+      <div class="field" style="margin-bottom:0; max-width:260px;">
+        <label for="cek-komoditas">Komoditas</label>
+        <div class="select-wrap">
+          <select id="cek-komoditas">
+            {% for nama in daftar_komoditas %}
+            <option value="{{ nama }}">{{ nama }}</option>
+            {% endfor %}
+          </select>
+        </div>
+      </div>
+      <div class="field" style="margin-bottom:0; max-width:180px;">
+        <label for="cek-bulan">Bulan</label>
+        <input type="month" id="cek-bulan">
+      </div>
+      <button type="button" id="btn-cek-tanggal" class="btn-export" style="align-self:flex-end;">Cek</button>
+    </div>
+    <div id="hasil-cek-tanggal" class="hasil-cek-tanggal hidden"></div>
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  const PREDIKSI_DATA = {{ prediksi_data | tojson }};
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.5.1/chart.umd.min.js"></script>
+<script src="{{ url_for('static', filename='prediksi.js') }}"></script>
+{% endblock %}

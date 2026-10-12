@@ -1,0 +1,3432 @@
+[
+  {
+    "Sumber":"Seruti",
+    "Kode":229,
+    "Nama":"A. Nilai kontrak sebulan",
+    "Satuan":"bulan",
+    "Min":50000.0,
+    "Max":5000000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - A. Nilai kontrak sebulan (bulan)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":230,
+    "Nama":"A. Nilai sewa sebulan",
+    "Satuan":"bulan",
+    "Min":30000.0,
+    "Max":5000000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - A. Nilai sewa sebulan (bulan)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":114,
+    "Nama":"Air kemasan",
+    "Satuan":"Liter",
+    "Min":1000.0,
+    "Max":35000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Air kemasan (Liter)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":115,
+    "Nama":"Air kemasan galon",
+    "Satuan":"Galon",
+    "Min":4000.0,
+    "Max":40000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Air kemasan galon (Galon)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":116,
+    "Nama":"Air teh kemasan, minuman bersoda\/mengandung CO2",
+    "Satuan":"250 ml",
+    "Min":1000.0,
+    "Max":30000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Air teh kemasan, minuman bersoda\/mengandung CO2 (250 ml)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":109,
+    "Nama":"Ayam\/bebek\/daging matang (ayam goreng, rendang, dsb.)",
+    "Satuan":"Potong",
+    "Min":3000.0,
+    "Max":60000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Ayam\/bebek\/daging matang (ayam goreng, rendang, dsb.) (Potong)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":75,
+    "Nama":"Bahan minuman lainnya",
+    "Satuan":"",
+    "Min":500.0,
+    "Max":65000.0,
+    "ButuhInput":"nama_satuan",
+    "Label":"Seruti - Bahan minuman lainnya"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":49,
+    "Nama":"Bahan sayur sop\/cap cai\/kimlo\/asam\/lodeh (paket)",
+    "Satuan":"Bungkus",
+    "Min":1000.0,
+    "Max":40000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Bahan sayur sop\/cap cai\/kimlo\/asam\/lodeh (paket) (Bungkus)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":52,
+    "Nama":"Bawang bombai",
+    "Satuan":"Kg",
+    "Min":2000.0,
+    "Max":120000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Bawang bombai (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":50,
+    "Nama":"Bawang merah",
+    "Satuan":"Kg",
+    "Min":5000.0,
+    "Max":150000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Bawang merah (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":51,
+    "Nama":"Bawang putih",
+    "Satuan":"Kg",
+    "Min":5000.0,
+    "Max":150000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Bawang putih (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":2,
+    "Nama":"Beras (beras lokal, medium, premium, impor, dan beras ketan)",
+    "Satuan":"Kg",
+    "Min":6500.0,
+    "Max":85000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Beras (beras lokal, medium, premium, impor, dan beras ketan) (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":64,
+    "Nama":"Buah-buahan (Jeruk, Mangga, Apel, Pepaya, Melon, Semangka, Alpukat, Nanas, Pisan",
+    "Satuan":"Kg",
+    "Min":3000.0,
+    "Max":200000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Buah-buahan (Jeruk, Mangga, Apel, Pepaya, Melon, Semangka, Alpukat, Nanas, Pisan (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":111,
+    "Nama":"Bubur ayam",
+    "Satuan":"Porsi",
+    "Min":2500.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Bubur ayam (Porsi)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":96,
+    "Nama":"Bubur kacang hijau",
+    "Satuan":"Porsi",
+    "Min":1000.0,
+    "Max":20000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Bubur kacang hijau (Porsi)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":78,
+    "Nama":"Bumbu dan rempah-rempah lainnya (kemiri, ketumbar, jahe, kunyit, dll)",
+    "Satuan":"Gram",
+    "Min":2.0,
+    "Max":2000.0,
+    "ButuhInput":"nama",
+    "Label":"Seruti - Bumbu dan rempah-rempah lainnya (kemiri, ketumbar, jahe, kunyit, dll) (Gram)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":83,
+    "Nama":"Bumbu masak jadi\/kemasan, bumbu racikan",
+    "Satuan":"Gram",
+    "Min":20.0,
+    "Max":12000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Bumbu masak jadi\/kemasan, bumbu racikan (Gram)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":54,
+    "Nama":"Cabai hijau",
+    "Satuan":"Kg",
+    "Min":12000.0,
+    "Max":100000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Cabai hijau (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":53,
+    "Nama":"Cabai merah",
+    "Satuan":"Kg",
+    "Min":7000.0,
+    "Max":180000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Cabai merah (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":55,
+    "Nama":"Cabai rawit",
+    "Satuan":"Kg",
+    "Min":10000.0,
+    "Max":135000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Cabai rawit (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":16,
+    "Nama":"Cumi-cumi, sotong, gurita",
+    "Satuan":"Kg",
+    "Min":15000.0,
+    "Max":170000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Cumi-cumi, sotong, gurita (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":24,
+    "Nama":"Cumi-cumi, sotong, gurita diawetkan",
+    "Satuan":"Ons",
+    "Min":1100.0,
+    "Max":45000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Cumi-cumi, sotong, gurita diawetkan (Ons)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":28,
+    "Nama":"Daging ayam",
+    "Satuan":"Kg",
+    "Min":16000.0,
+    "Max":110000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Daging ayam (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":31,
+    "Nama":"Daging ayam diawetkan\/olahan daging ayam (sosis ayam, abon ayam, bakso ayam, dsb",
+    "Satuan":"Kg",
+    "Min":10000.0,
+    "Max":201000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Daging ayam diawetkan\/olahan daging ayam (sosis ayam, abon ayam, bakso ayam, dsb (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":29,
+    "Nama":"Daging kerbau, kambing, babi, dll",
+    "Satuan":"Kg",
+    "Min":15000.0,
+    "Max":230000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Daging kerbau, kambing, babi, dll (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":32,
+    "Nama":"Daging lainnya diawetkan (olahan selain dari sapi & ayam)",
+    "Satuan":"Kg",
+    "Min":10000.0,
+    "Max":125000.0,
+    "ButuhInput":"nama",
+    "Label":"Seruti - Daging lainnya diawetkan (olahan selain dari sapi & ayam) (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":110,
+    "Nama":"Daging olahan (sosis, nugget, daging asap, dsb.) matang",
+    "Satuan":"Potong",
+    "Min":1000.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Daging olahan (sosis, nugget, daging asap, dsb.) matang (Potong)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":27,
+    "Nama":"Daging sapi",
+    "Satuan":"Kg",
+    "Min":60000.0,
+    "Max":270000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Daging sapi (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":30,
+    "Nama":"Daging sapi diawetkan\/olahan daging sapi (sosis sapi, abon sapi, bakso sapi, dsb",
+    "Satuan":"Kg",
+    "Min":8000.0,
+    "Max":250000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Daging sapi diawetkan\/olahan daging sapi (sosis sapi, abon sapi, bakso sapi, dsb (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":119,
+    "Nama":"Es krim",
+    "Satuan":"Mangkok k",
+    "Min":1000.0,
+    "Max":65000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Es krim (Mangkok k)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":120,
+    "Nama":"Es lainnya",
+    "Satuan":"Porsi",
+    "Min":1000.0,
+    "Max":50000.0,
+    "ButuhInput":"nama",
+    "Label":"Seruti - Es lainnya (Porsi)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":97,
+    "Nama":"Gado-gado, ketoprak, pecel",
+    "Satuan":"Porsi",
+    "Min":3000.0,
+    "Max":40000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Gado-gado, ketoprak, pecel (Porsi)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":77,
+    "Nama":"Garam",
+    "Satuan":"Gram",
+    "Min":3.0,
+    "Max":2000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Garam (Gram)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":72,
+    "Nama":"Gula merah, gula air (pohon aren, kelapa, lontar)",
+    "Satuan":"Ons",
+    "Min":950.0,
+    "Max":45000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Gula merah, gula air (pohon aren, kelapa, lontar) (Ons)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":71,
+    "Nama":"Gula pasir",
+    "Satuan":"Ons",
+    "Min":950.0,
+    "Max":35000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Gula pasir (Ons)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":236,
+    "Nama":"Harga Air PAM",
+    "Satuan":"M3",
+    "Min":1000.0,
+    "Max":81000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Harga Air PAM (M3)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":244,
+    "Nama":"Harga Bensin",
+    "Satuan":"Liter",
+    "Min":10000.0,
+    "Max":20000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Harga Bensin (Liter)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":255,
+    "Nama":"Harga Gas kota",
+    "Satuan":"M3",
+    "Min":1200.0,
+    "Max":200000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Harga Gas kota (M3)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":253,
+    "Nama":"Harga LPG",
+    "Satuan":"Kg",
+    "Min":5300.0,
+    "Max":65000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Harga LPG (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":234,
+    "Nama":"Harga Listrik",
+    "Satuan":"Kwh",
+    "Min":145.0,
+    "Max":11450.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Harga Listrik (Kwh)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":250,
+    "Nama":"Harga Minyak pelumas",
+    "Satuan":"Liter",
+    "Min":16000.0,
+    "Max":120000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Harga Minyak pelumas (Liter)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":257,
+    "Nama":"Harga Minyak tanah",
+    "Satuan":"Liter",
+    "Min":8000.0,
+    "Max":27500.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Harga Minyak tanah (Liter)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":246,
+    "Nama":"Harga Solar",
+    "Satuan":"Liter",
+    "Min":6500.0,
+    "Max":145000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Harga Solar (Liter)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":62,
+    "Nama":"Hasil lain dari kacang-kacangan",
+    "Satuan":"Ons",
+    "Min":700.0,
+    "Max":15000.0,
+    "ButuhInput":"nama",
+    "Label":"Seruti - Hasil lain dari kacang-kacangan (Ons)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":43,
+    "Nama":"Hasil lain dari susu (keju, yoghurt, dsb.)",
+    "Satuan":"",
+    "Min":1000.0,
+    "Max":100000.0,
+    "ButuhInput":"nama_satuan",
+    "Label":"Seruti - Hasil lain dari susu (keju, yoghurt, dsb.)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":21,
+    "Nama":"Ikan dalam kaleng (sardencis, tuna dalam kaleng, dsb.)",
+    "Satuan":"Ons",
+    "Min":2500.0,
+    "Max":35000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Ikan dalam kaleng (sardencis, tuna dalam kaleng, dsb.) (Ons)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":20,
+    "Nama":"Ikan diawetkan (kembung diawetkan, tenggiri diawetkan, dll)",
+    "Satuan":"Ons",
+    "Min":2000.0,
+    "Max":80000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Ikan diawetkan (kembung diawetkan, tenggiri diawetkan, dll) (Ons)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":22,
+    "Nama":"Ikan diawetkan lainnya",
+    "Satuan":"Ons",
+    "Min":2500.0,
+    "Max":55000.0,
+    "ButuhInput":"nama",
+    "Label":"Seruti - Ikan diawetkan lainnya (Ons)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":108,
+    "Nama":"Ikan matang",
+    "Satuan":"Potong",
+    "Min":5000.0,
+    "Max":100000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Ikan matang (Potong)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":13,
+    "Nama":"Ikan segar\/basah (tongkol, tuna, kembung, nila, lele, gurame, dll)",
+    "Satuan":"Kg",
+    "Min":8000.0,
+    "Max":200000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Ikan segar\/basah (tongkol, tuna, kembung, nila, lele, gurame, dll) (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":3,
+    "Nama":"Jagung",
+    "Satuan":"Kg",
+    "Min":2000.0,
+    "Max":40000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Jagung (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":59,
+    "Nama":"Kacang kedelai",
+    "Satuan":"Kg",
+    "Min":5000.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Kacang kedelai (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":60,
+    "Nama":"Kacang lainnya",
+    "Satuan":"Kg",
+    "Min":2000.0,
+    "Max":150000.0,
+    "ButuhInput":"nama",
+    "Label":"Seruti - Kacang lainnya (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":58,
+    "Nama":"Kacang tanah tanpa kulit",
+    "Satuan":"Kg",
+    "Min":10000.0,
+    "Max":70000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Kacang tanah tanpa kulit (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":80,
+    "Nama":"Kecap",
+    "Satuan":"100 ml",
+    "Min":500.0,
+    "Max":40000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Kecap (100 ml)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":68,
+    "Nama":"Kelapa (tidak termasuk santan instan)",
+    "Satuan":"Butir",
+    "Min":3000.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Kelapa (tidak termasuk santan instan) (Butir)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":39,
+    "Nama":"Kental manis",
+    "Satuan":"Kaleng",
+    "Min":7000.0,
+    "Max":35000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Kental manis (Kaleng)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":10,
+    "Nama":"Kentang",
+    "Satuan":"Kg",
+    "Min":1900.0,
+    "Max":45000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Kentang (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":18,
+    "Nama":"Kerang, siput, bekicot, remis",
+    "Satuan":"Kg",
+    "Min":15000.0,
+    "Max":130000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Kerang, siput, bekicot, remis (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":86,
+    "Nama":"Kerupuk",
+    "Satuan":"Ons",
+    "Min":1100.0,
+    "Max":24000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Kerupuk (Ons)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":17,
+    "Nama":"Ketam, kepiting, rajungan",
+    "Satuan":"Kg",
+    "Min":25000.0,
+    "Max":240000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Ketam, kepiting, rajungan (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":7,
+    "Nama":"Ketela pohon\/singkong dan olahannya",
+    "Satuan":"Kg",
+    "Min":1000.0,
+    "Max":25000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Ketela pohon\/singkong dan olahannya (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":8,
+    "Nama":"Ketela rambat\/ubi jalar",
+    "Satuan":"Kg",
+    "Min":100.0,
+    "Max":25000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Ketela rambat\/ubi jalar (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":74,
+    "Nama":"Kopi (bubuk, biji, dan sachet)",
+    "Satuan":"gram",
+    "Min":65.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Kopi (bubuk, biji, dan sachet) (gram)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":93,
+    "Nama":"Kue basah (kue lapis, bika ambon, lemper, dsb.)",
+    "Satuan":"Buah",
+    "Min":500.0,
+    "Max":14000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Kue basah (kue lapis, bika ambon, lemper, dsb.) (Buah)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":92,
+    "Nama":"Kue kering, biskuit, semprong",
+    "Satuan":"Ons",
+    "Min":850.0,
+    "Max":30000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Kue kering, biskuit, semprong (Ons)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":88,
+    "Nama":"Lainnya",
+    "Satuan":"",
+    "Min":450.0,
+    "Max":150000.0,
+    "ButuhInput":"nama_satuan",
+    "Label":"Seruti - Lainnya"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":34,
+    "Nama":"Lainnya (hati, jeroan, iga, kaki, buntut, kepala, dsb.)",
+    "Satuan":"Kg",
+    "Min":10000.0,
+    "Max":150000.0,
+    "ButuhInput":"nama",
+    "Label":"Seruti - Lainnya (hati, jeroan, iga, kaki, buntut, kepala, dsb.) (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":101,
+    "Nama":"Lontong\/ketupat sayur",
+    "Satuan":"Porsi",
+    "Min":1000.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Lontong\/ketupat sayur (Porsi)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":87,
+    "Nama":"Makanan bayi kemasan",
+    "Satuan":"Kotak kec",
+    "Min":1000.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Makanan bayi kemasan (Kotak kec)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":94,
+    "Nama":"Makanan gorengan (tahu, tempe, bakwan, pisang, dll)",
+    "Satuan":"Potong",
+    "Min":500.0,
+    "Max":15000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Makanan gorengan (tahu, tempe, bakwan, pisang, dll) (Potong)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":113,
+    "Nama":"Makanan jadi lainnya",
+    "Satuan":"",
+    "Min":250.0,
+    "Max":150000.0,
+    "ButuhInput":"nama_satuan",
+    "Label":"Seruti - Makanan jadi lainnya"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":107,
+    "Nama":"Makanan ringan anak-anak, kerupuk\/keripik",
+    "Satuan":"Ons",
+    "Min":200.0,
+    "Max":70000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Makanan ringan anak-anak, kerupuk\/keripik (Ons)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":79,
+    "Nama":"Merica\/lada",
+    "Satuan":"Gram",
+    "Min":20.0,
+    "Max":5000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Merica\/lada (Gram)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":105,
+    "Nama":"Mi bakso, mi rebus, mi goreng",
+    "Satuan":"Porsi",
+    "Min":2000.0,
+    "Max":80000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Mi bakso, mi rebus, mi goreng (Porsi)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":85,
+    "Nama":"Mi instan",
+    "Satuan":"Bungkus",
+    "Min":500.0,
+    "Max":40000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Mi instan (Bungkus)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":118,
+    "Nama":"Minuman jadi (kopi, kopi susu, teh, susu coklat, dsb.)",
+    "Satuan":"Gelas",
+    "Min":1000.0,
+    "Max":65000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Minuman jadi (kopi, kopi susu, teh, susu coklat, dsb.) (Gelas)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":121,
+    "Nama":"Minuman keras",
+    "Satuan":"Liter",
+    "Min":10000.0,
+    "Max":2000000.0,
+    "ButuhInput":"nama",
+    "Label":"Seruti - Minuman keras (Liter)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":69,
+    "Nama":"Minyak dan kelapa lainnya",
+    "Satuan":"",
+    "Min":2000.0,
+    "Max":150000.0,
+    "ButuhInput":"nama_satuan",
+    "Label":"Seruti - Minyak dan kelapa lainnya"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":67,
+    "Nama":"Minyak goreng (kelapa sawit, bunga matahari)",
+    "Satuan":"Liter",
+    "Min":6500.0,
+    "Max":120000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Minyak goreng (kelapa sawit, bunga matahari) (Liter)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":66,
+    "Nama":"Minyak kelapa",
+    "Satuan":"Liter",
+    "Min":8500.0,
+    "Max":100000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Minyak kelapa (Liter)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":98,
+    "Nama":"Nasi campur\/rames",
+    "Satuan":"Porsi",
+    "Min":5000.0,
+    "Max":60000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Nasi campur\/rames (Porsi)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":99,
+    "Nama":"Nasi goreng",
+    "Satuan":"Porsi",
+    "Min":5000.0,
+    "Max":65000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Nasi goreng (Porsi)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":100,
+    "Nama":"Nasi putih",
+    "Satuan":"Porsi",
+    "Min":1000.0,
+    "Max":20000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Nasi putih (Porsi)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":14,
+    "Nama":"Olahan ikan segar (siomai ikan, otak-otak ikan, dll.)",
+    "Satuan":"Kg",
+    "Min":5000.0,
+    "Max":120000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Olahan ikan segar (siomai ikan, otak-otak ikan, dll.) (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":5,
+    "Nama":"Padi-padian lainnya",
+    "Satuan":"Kg",
+    "Min":3500.0,
+    "Max":60000.0,
+    "ButuhInput":"nama",
+    "Label":"Seruti - Padi-padian lainnya (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":81,
+    "Nama":"Penyedap masakan\/vetsin",
+    "Satuan":"Gram",
+    "Min":19.0,
+    "Max":10000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Penyedap masakan\/vetsin (Gram)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":127,
+    "Nama":"Rokok dan tembakau lainnya",
+    "Satuan":"",
+    "Min":500.0,
+    "Max":200000.0,
+    "ButuhInput":"nama_satuan",
+    "Label":"Seruti - Rokok dan tembakau lainnya"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":123,
+    "Nama":"Rokok kretek filter",
+    "Satuan":"Batang",
+    "Min":850.0,
+    "Max":9000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Rokok kretek filter (Batang)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":124,
+    "Nama":"Rokok kretek tanpa filter",
+    "Satuan":"Batang",
+    "Min":700.0,
+    "Max":9000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Rokok kretek tanpa filter (Batang)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":125,
+    "Nama":"Rokok putih",
+    "Satuan":"Batang",
+    "Min":1000.0,
+    "Max":15000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Rokok putih (Batang)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":91,
+    "Nama":"Roti manis, roti lainnya",
+    "Satuan":"Potong",
+    "Min":1000.0,
+    "Max":30000.0,
+    "ButuhInput":"nama",
+    "Label":"Seruti - Roti manis, roti lainnya (Potong)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":90,
+    "Nama":"Roti tawar",
+    "Satuan":"Potong",
+    "Min":500.0,
+    "Max":20000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Roti tawar (Potong)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":9,
+    "Nama":"Sagu (bukan dari ketela pohon)",
+    "Satuan":"Kg",
+    "Min":3000.0,
+    "Max":40000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Sagu (bukan dari ketela pohon) (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":82,
+    "Nama":"Sambal jadi\/sambal botol\/saus cabai\/saus tomat",
+    "Satuan":"100 ml",
+    "Min":500.0,
+    "Max":35000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Sambal jadi\/sambal botol\/saus cabai\/saus tomat (100 ml)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":117,
+    "Nama":"Sari buah kemasan, minuman kesehatan, minuman berenergi",
+    "Satuan":"200 ml",
+    "Min":1000.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Sari buah kemasan, minuman kesehatan, minuman berenergi (200 ml)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":104,
+    "Nama":"Sate, tongseng",
+    "Satuan":"Porsi",
+    "Min":2000.0,
+    "Max":70000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Sate, tongseng (Porsi)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":103,
+    "Nama":"Sayur matang (ditumis, disantan, dsb.)",
+    "Satuan":"Porsi",
+    "Min":1000.0,
+    "Max":55000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Sayur matang (ditumis, disantan, dsb.) (Porsi)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":56,
+    "Nama":"Sayur-sayuran lainnya",
+    "Satuan":"Kg",
+    "Min":2000.0,
+    "Max":120000.0,
+    "ButuhInput":"nama",
+    "Label":"Seruti - Sayur-sayuran lainnya (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":46,
+    "Nama":"Sayuran berjenis kacang (buncis dan kacang panjang)",
+    "Satuan":"Kg",
+    "Min":1000.0,
+    "Max":40000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Sayuran berjenis kacang (buncis dan kacang panjang) (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":47,
+    "Nama":"Sayuran buah (tomat, mentimun, nangka muda, jengkol, dll)",
+    "Satuan":"Kg",
+    "Min":1000.0,
+    "Max":105000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Sayuran buah (tomat, mentimun, nangka muda, jengkol, dll) (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":45,
+    "Nama":"Sayuran daun (bayam, kangkung, kubis, sawi, daun pepaya, daun kelor, dll)",
+    "Satuan":"Kg",
+    "Min":2000.0,
+    "Max":100000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Sayuran daun (bayam, kangkung, kubis, sawi, daun pepaya, daun kelor, dll) (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":48,
+    "Nama":"Sayuran umbi (wortel dan rebung)",
+    "Satuan":"Kg",
+    "Min":2500.0,
+    "Max":75000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Sayuran umbi (wortel dan rebung) (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":112,
+    "Nama":"Siomai, batagor",
+    "Satuan":"Porsi",
+    "Min":2500.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Siomai, batagor (Porsi)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":102,
+    "Nama":"Soto, gule, sop, rawon, cincang",
+    "Satuan":"Porsi",
+    "Min":3000.0,
+    "Max":85000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Soto, gule, sop, rawon, cincang (Porsi)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":40,
+    "Nama":"Susu bubuk",
+    "Satuan":"Kg",
+    "Min":15000.0,
+    "Max":295000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Susu bubuk (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":41,
+    "Nama":"Susu bubuk bayi",
+    "Satuan":"Kg",
+    "Min":30000.0,
+    "Max":800000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Susu bubuk bayi (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":38,
+    "Nama":"Susu cair pabrik",
+    "Satuan":"Kotak kec",
+    "Min":1600.0,
+    "Max":30000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Susu cair pabrik (Kotak kec)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":42,
+    "Nama":"Susu murni",
+    "Satuan":"250 ml",
+    "Min":2500.0,
+    "Max":100000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Susu murni (250 ml)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":61,
+    "Nama":"Tahu, tempe, dan oncom",
+    "Satuan":"Ons",
+    "Min":5000.0,
+    "Max":57000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Tahu, tempe, dan oncom (Ons)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":73,
+    "Nama":"Teh (bubuk dan celup)",
+    "Satuan":"gram",
+    "Min":25.0,
+    "Max":20000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Teh (bubuk dan celup) (gram)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":36,
+    "Nama":"Telur ayam",
+    "Satuan":"Butir",
+    "Min":1400.0,
+    "Max":10000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Telur ayam (Butir)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":37,
+    "Nama":"Telur lainnya (telur itik, telur puyuh, telur asin mentah maupun matang, telur p",
+    "Satuan":"Butir",
+    "Min":250.0,
+    "Max":15000.0,
+    "ButuhInput":"nama",
+    "Label":"Seruti - Telur lainnya (telur itik, telur puyuh, telur asin mentah maupun matang, telur p (Butir)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":126,
+    "Nama":"Tembakau",
+    "Satuan":"Ons",
+    "Min":1500.0,
+    "Max":100000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Tembakau (Ons)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":4,
+    "Nama":"Tepung terigu",
+    "Satuan":"Kg",
+    "Min":5000.0,
+    "Max":29000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Tepung terigu (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":33,
+    "Nama":"Tetelan, sandung lamur",
+    "Satuan":"Kg",
+    "Min":15000.0,
+    "Max":150000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Tetelan, sandung lamur (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":25,
+    "Nama":"Udang dan hewan air lainnya yang diawetkan",
+    "Satuan":"Ons",
+    "Min":5000.0,
+    "Max":35000.0,
+    "ButuhInput":"nama",
+    "Label":"Seruti - Udang dan hewan air lainnya yang diawetkan (Ons)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":19,
+    "Nama":"Udang dan hewan air lainnya yang segar",
+    "Satuan":"Kg",
+    "Min":20000.0,
+    "Max":150000.0,
+    "ButuhInput":"nama",
+    "Label":"Seruti - Udang dan hewan air lainnya yang segar (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":23,
+    "Nama":"Udang diawetkan (ebi, rebon)",
+    "Satuan":"Ons",
+    "Min":1500.0,
+    "Max":30000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Udang diawetkan (ebi, rebon) (Ons)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":15,
+    "Nama":"Udang, lobster",
+    "Satuan":"Kg",
+    "Min":20000.0,
+    "Max":250000.0,
+    "ButuhInput":null,
+    "Label":"Seruti - Udang, lobster (Kg)"
+  },
+  {
+    "Sumber":"Seruti",
+    "Kode":11,
+    "Nama":"Umbi-umbian lainnya",
+    "Satuan":"Kg",
+    "Min":3000.0,
+    "Max":61000.0,
+    "ButuhInput":"nama",
+    "Label":"Seruti - Umbi-umbian lainnya (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":229,
+    "Nama":"A. Nilai kontrak sebulan",
+    "Satuan":"bulan",
+    "Min":200.0,
+    "Max":5000000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - A. Nilai kontrak sebulan (bulan)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":230,
+    "Nama":"A. Nilai sewa sebulan",
+    "Satuan":"bulan",
+    "Min":30000.0,
+    "Max":3500000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - A. Nilai sewa sebulan (bulan)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":212,
+    "Nama":"Air kemasan",
+    "Satuan":"Liter",
+    "Min":1000.0,
+    "Max":35000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Air kemasan (Liter)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":213,
+    "Nama":"Air kemasan galon",
+    "Satuan":"Galon",
+    "Min":4000.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Air kemasan galon (Galon)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":214,
+    "Nama":"Air teh kemasan",
+    "Satuan":"250 ml",
+    "Min":500.0,
+    "Max":30000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Air teh kemasan (250 ml)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":142,
+    "Nama":"Alpokat",
+    "Satuan":"Kg",
+    "Min":10000.0,
+    "Max":65000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Alpokat (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":147,
+    "Nama":"Anggur",
+    "Satuan":"Kg",
+    "Min":20000.0,
+    "Max":120000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Anggur (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":132,
+    "Nama":"Apel",
+    "Satuan":"Kg",
+    "Min":5000.0,
+    "Max":95000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Apel (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":174,
+    "Nama":"Asam",
+    "Satuan":"Gram",
+    "Min":8.0,
+    "Max":2000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Asam (Gram)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":207,
+    "Nama":"Ayam\/daging matang (ayam goreng, rendang, dsb)",
+    "Satuan":"Potong",
+    "Min":5000.0,
+    "Max":60000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Ayam\/daging matang (ayam goreng, rendang, dsb) (Potong)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":166,
+    "Nama":"Bahan minuman lainnya",
+    "Satuan":"",
+    "Min":500.0,
+    "Max":65000.0,
+    "ButuhInput":"nama_satuan",
+    "Label":"Susenas - Bahan minuman lainnya"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":101,
+    "Nama":"Bahan sayur asam\/lodeh (paket)",
+    "Satuan":"Bungkus",
+    "Min":1000.0,
+    "Max":70000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Bahan sayur asam\/lodeh (paket) (Bungkus)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":100,
+    "Nama":"Bahan sayur sop\/capcay\/ kimlo (paket)",
+    "Satuan":"Bungkus",
+    "Min":1000.0,
+    "Max":40000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Bahan sayur sop\/capcay\/ kimlo (paket) (Bungkus)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":25,
+    "Nama":"Bandeng",
+    "Satuan":"Kg",
+    "Min":20000.0,
+    "Max":850000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Bandeng (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":54,
+    "Nama":"Bandeng diawetkan",
+    "Satuan":"Ons",
+    "Min":3000.0,
+    "Max":80000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Bandeng diawetkan (Ons)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":32,
+    "Nama":"Baronang",
+    "Satuan":"Kg",
+    "Min":20000.0,
+    "Max":150000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Baronang (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":34,
+    "Nama":"Bawal",
+    "Satuan":"Kg",
+    "Min":15000.0,
+    "Max":185000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Bawal (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":107,
+    "Nama":"Bawang bombay",
+    "Satuan":"Kg",
+    "Min":2000.0,
+    "Max":70000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Bawang bombay (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":105,
+    "Nama":"Bawang merah",
+    "Satuan":"Kg",
+    "Min":10000.0,
+    "Max":150000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Bawang merah (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":106,
+    "Nama":"Bawang putih",
+    "Satuan":"Kg",
+    "Min":10000.0,
+    "Max":150000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Bawang putih (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":86,
+    "Nama":"Bayam",
+    "Satuan":"Kg",
+    "Min":3000.0,
+    "Max":52400.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Bayam (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":40,
+    "Nama":"Belut",
+    "Satuan":"Kg",
+    "Min":15000.0,
+    "Max":150000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Belut (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":2,
+    "Nama":"Beras (beras lokal, kualitas unggul, impor)",
+    "Satuan":"Kg",
+    "Min":10000.0,
+    "Max":200000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Beras (beras lokal, kualitas unggul, impor) (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":3,
+    "Nama":"Beras ketan",
+    "Satuan":"Kg",
+    "Min":10000.0,
+    "Max":180000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Beras ketan (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":148,
+    "Nama":"Buah Naga",
+    "Satuan":"Kg",
+    "Min":8000.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Buah Naga (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":153,
+    "Nama":"Buah-buahan lainnya",
+    "Satuan":"Kg",
+    "Min":3000.0,
+    "Max":150000.0,
+    "ButuhInput":"nama",
+    "Label":"Susenas - Buah-buahan lainnya (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":209,
+    "Nama":"Bubur ayam",
+    "Satuan":"Porsi",
+    "Min":5000.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Bubur ayam (Porsi)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":185,
+    "Nama":"Bubur bayi kemasan",
+    "Satuan":"Kotak kecil",
+    "Min":1000.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Bubur bayi kemasan (Kotak kecil)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":194,
+    "Nama":"Bubur kacang hijau",
+    "Satuan":"Porsi",
+    "Min":3000.0,
+    "Max":20000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Bubur kacang hijau (Porsi)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":181,
+    "Nama":"Bumbu dapur lainnya (kencur, pala, kapulaga, dsb)",
+    "Satuan":"Gram",
+    "Min":10.0,
+    "Max":10000.0,
+    "ButuhInput":"nama",
+    "Label":"Susenas - Bumbu dapur lainnya (kencur, pala, kapulaga, dsb) (Gram)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":180,
+    "Nama":"Bumbu maskan jadi\/kemasan, bumbu racikan",
+    "Satuan":"Gram",
+    "Min":10.0,
+    "Max":12000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Bumbu maskan jadi\/kemasan, bumbu racikan (Gram)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":91,
+    "Nama":"Buncis",
+    "Satuan":"Kg",
+    "Min":1000.0,
+    "Max":51800.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Buncis (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":109,
+    "Nama":"Cabe hijau",
+    "Satuan":"Kg",
+    "Min":3000.0,
+    "Max":150000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Cabe hijau (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":108,
+    "Nama":"Cabe merah",
+    "Satuan":"Kg",
+    "Min":7000.0,
+    "Max":200000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Cabe merah (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":110,
+    "Nama":"Cabe rawit",
+    "Satuan":"Kg",
+    "Min":10000.0,
+    "Max":150000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Cabe rawit (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":20,
+    "Nama":"Cakalang, dencis",
+    "Satuan":"Kg",
+    "Min":18000.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Cakalang, dencis (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":44,
+    "Nama":"Cumi-cumi, sotong, gurita",
+    "Satuan":"Kg",
+    "Min":3000.0,
+    "Max":192500.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Cumi-cumi, sotong, gurita (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":59,
+    "Nama":"Cumi-cumi, sotong, gurita diawetkan",
+    "Satuan":"Ons",
+    "Min":5000.0,
+    "Max":130000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Cumi-cumi, sotong, gurita diawetkan (Ons)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":70,
+    "Nama":"Daging ayam diawetkan\/olahan daging ayam (sosis ay",
+    "Satuan":"Kg",
+    "Min":10000.0,
+    "Max":500000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Daging ayam diawetkan\/olahan daging ayam (sosis ay (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":67,
+    "Nama":"Daging ayam kampung",
+    "Satuan":"Kg",
+    "Min":30000.0,
+    "Max":600000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Daging ayam kampung (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":68,
+    "Nama":"Daging ayam pejantan",
+    "Satuan":"Kg",
+    "Min":75000.0,
+    "Max":80000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Daging ayam pejantan (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":66,
+    "Nama":"Daging ayam ras",
+    "Satuan":"Kg",
+    "Min":20000.0,
+    "Max":500000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Daging ayam ras (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":65,
+    "Nama":"Daging babi",
+    "Satuan":"Kg",
+    "Min":50000.0,
+    "Max":150000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Daging babi (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":71,
+    "Nama":"Daging diawetkan lainnya",
+    "Satuan":"Kg",
+    "Min":13000.0,
+    "Max":200000.0,
+    "ButuhInput":"nama",
+    "Label":"Susenas - Daging diawetkan lainnya (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":64,
+    "Nama":"Daging kambing, domba\/biri-biri",
+    "Satuan":"Kg",
+    "Min":75000.0,
+    "Max":200000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Daging kambing, domba\/biri-biri (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":63,
+    "Nama":"Daging kerbau",
+    "Satuan":"Kg",
+    "Min":54420.0,
+    "Max":200000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Daging kerbau (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":208,
+    "Nama":"Daging olahan matang (sosis. nugget, daging asap,",
+    "Satuan":"Potong",
+    "Min":500.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Daging olahan matang (sosis. nugget, daging asap, (Potong)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":62,
+    "Nama":"Daging sapi",
+    "Satuan":"Kg",
+    "Min":70000.0,
+    "Max":270000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Daging sapi (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":69,
+    "Nama":"Daging sapi diawetkan\/olahan daging sapi (sosis sa",
+    "Satuan":"Kg",
+    "Min":12500.0,
+    "Max":150000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Daging sapi diawetkan\/olahan daging sapi (sosis sa (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":68,
+    "Nama":"Daging segar lainnya",
+    "Satuan":"Kg",
+    "Min":15000.0,
+    "Max":200000.0,
+    "ButuhInput":"nama",
+    "Label":"Susenas - Daging segar lainnya (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":114,
+    "Nama":"Daun bawang",
+    "Satuan":"Kg",
+    "Min":5000.0,
+    "Max":45000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Daun bawang (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":113,
+    "Nama":"Daun katuk",
+    "Satuan":"Kg",
+    "Min":3000.0,
+    "Max":25000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Daun katuk (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":112,
+    "Nama":"Daun kelor",
+    "Satuan":"Kg",
+    "Min":3000.0,
+    "Max":48030.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Daun kelor (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":116,
+    "Nama":"Daun kemangi",
+    "Satuan":"Kg",
+    "Min":3000.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Daun kemangi (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":96,
+    "Nama":"Daun ketela pohon\/daun singkong",
+    "Satuan":"Kg",
+    "Min":2000.0,
+    "Max":20000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Daun ketela pohon\/daun singkong (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":115,
+    "Nama":"Daun pakis",
+    "Satuan":"Kg",
+    "Min":3000.0,
+    "Max":25000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Daun pakis (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":111,
+    "Nama":"Daun pepaya",
+    "Satuan":"Kg",
+    "Min":2000.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Daun pepaya (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":134,
+    "Nama":"Duku, langsat",
+    "Satuan":"Kg",
+    "Min":10000.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Duku, langsat (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":135,
+    "Nama":"Durian",
+    "Satuan":"Kg",
+    "Min":15000.0,
+    "Max":1000000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Durian (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":17,
+    "Nama":"Ekor kuning",
+    "Satuan":"Kg",
+    "Min":20000.0,
+    "Max":400000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Ekor kuning (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":217,
+    "Nama":"Es krim",
+    "Satuan":"Mangkok kec",
+    "Min":1000.0,
+    "Max":40000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Es krim (Mangkok kec)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":218,
+    "Nama":"Es lainnya",
+    "Satuan":"Porsi",
+    "Min":1000.0,
+    "Max":50000.0,
+    "ButuhInput":"nama",
+    "Label":"Susenas - Es lainnya (Porsi)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":26,
+    "Nama":"Gabus",
+    "Satuan":"Kg",
+    "Min":15000.0,
+    "Max":125000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Gabus (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":55,
+    "Nama":"Gabus diawetkan",
+    "Satuan":"Ons",
+    "Min":3000.0,
+    "Max":25000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Gabus diawetkan (Ons)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":195,
+    "Nama":"Gado-gado, ketoprak, pecel",
+    "Satuan":"Porsi",
+    "Min":5000.0,
+    "Max":25000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Gado-gado, ketoprak, pecel (Porsi)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":14,
+    "Nama":"Gaplek",
+    "Satuan":"Kg",
+    "Min":5000.0,
+    "Max":20000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Gaplek (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":168,
+    "Nama":"Garam",
+    "Satuan":"Gram",
+    "Min":5.0,
+    "Max":2000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Garam (Gram)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":161,
+    "Nama":"Gula merah, gula air (pohon aren, kelapa, lontar)",
+    "Satuan":"Ons",
+    "Min":1000.0,
+    "Max":45000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Gula merah, gula air (pohon aren, kelapa, lontar) (Ons)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":160,
+    "Nama":"Gula pasir",
+    "Satuan":"Ons",
+    "Min":1200.0,
+    "Max":25000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Gula pasir (Ons)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":35,
+    "Nama":"Gurame",
+    "Satuan":"Kg",
+    "Min":20000.0,
+    "Max":900000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Gurame (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":236,
+    "Nama":"Harga Air PAM",
+    "Satuan":"M3",
+    "Min":1000.0,
+    "Max":20000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Harga Air PAM (M3)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":244,
+    "Nama":"Harga Bensin",
+    "Satuan":"Liter",
+    "Min":10000.0,
+    "Max":20000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Harga Bensin (Liter)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":253,
+    "Nama":"Harga LPG",
+    "Satuan":"Kg",
+    "Min":5000.0,
+    "Max":30000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Harga LPG (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":234,
+    "Nama":"Harga Listrik",
+    "Satuan":"Kwh",
+    "Min":144.0,
+    "Max":1000000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Harga Listrik (Kwh)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":250,
+    "Nama":"Harga Minyak pelumas",
+    "Satuan":"Liter",
+    "Min":16000.0,
+    "Max":120000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Harga Minyak pelumas (Liter)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":257,
+    "Nama":"Harga Minyak tanah",
+    "Satuan":"Liter",
+    "Min":8000.0,
+    "Max":35000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Harga Minyak tanah (Liter)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":246,
+    "Nama":"Harga Solar",
+    "Satuan":"Liter",
+    "Min":6000.0,
+    "Max":145000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Harga Solar (Liter)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":128,
+    "Nama":"Hasil lain dari kacang-kacangan",
+    "Satuan":"Ons",
+    "Min":2000.0,
+    "Max":100000.0,
+    "ButuhInput":"nama",
+    "Label":"Susenas - Hasil lain dari kacang-kacangan (Ons)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":37,
+    "Nama":"Ikan Baung",
+    "Satuan":"Kg",
+    "Min":15000.0,
+    "Max":100000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Ikan Baung (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":38,
+    "Nama":"Ikan Belanak",
+    "Satuan":"Kg",
+    "Min":20000.0,
+    "Max":71000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Ikan Belanak (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":36,
+    "Nama":"Ikan Layang",
+    "Satuan":"Kg",
+    "Min":15800.0,
+    "Max":62000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Ikan Layang (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":41,
+    "Nama":"Ikan Tambak",
+    "Satuan":"Kg",
+    "Min":45000.0,
+    "Max":60000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Ikan Tambak (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":39,
+    "Nama":"Ikan Wader\/Seluang",
+    "Satuan":"Kg",
+    "Min":20000.0,
+    "Max":150000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Ikan Wader\/Seluang (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":56,
+    "Nama":"Ikan dalam kalengtuna dalam kaleng, dsb)",
+    "Satuan":"Ons",
+    "Min":4000.0,
+    "Max":30000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Ikan dalam kalengtuna dalam kaleng, dsb) (Ons)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":57,
+    "Nama":"Ikan diawetkan lainnya",
+    "Satuan":"Ons",
+    "Min":2000.0,
+    "Max":51000.0,
+    "ButuhInput":"nama",
+    "Label":"Susenas - Ikan diawetkan lainnya (Ons)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":206,
+    "Nama":"Ikan matang",
+    "Satuan":"Potong",
+    "Min":5000.0,
+    "Max":100000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Ikan matang (Potong)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":41,
+    "Nama":"Ikan segar\/basah lainnya",
+    "Satuan":"Kg",
+    "Min":15000.0,
+    "Max":200000.0,
+    "ButuhInput":"nama",
+    "Label":"Susenas - Ikan segar\/basah lainnya (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":4,
+    "Nama":"Jagung basah degan kulit",
+    "Satuan":"Kg",
+    "Min":2500.0,
+    "Max":200000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Jagung basah degan kulit (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":5,
+    "Nama":"Jagung pipilan\/beras jagung\/jagung titi",
+    "Satuan":"Kg",
+    "Min":3000.0,
+    "Max":40000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Jagung pipilan\/beras jagung\/jagung titi (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":172,
+    "Nama":"Jahe",
+    "Satuan":"Gram",
+    "Min":10.0,
+    "Max":5000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Jahe (Gram)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":149,
+    "Nama":"Jambu Air",
+    "Satuan":"Kg",
+    "Min":5000.0,
+    "Max":65060.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Jambu Air (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":143,
+    "Nama":"Jambu Biji",
+    "Satuan":"Kg",
+    "Min":5000.0,
+    "Max":150000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Jambu Biji (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":119,
+    "Nama":"Jamur (Jamur tiram, enoki, kancing, dll)",
+    "Satuan":"Kg",
+    "Min":6000.0,
+    "Max":100000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Jamur (Jamur tiram, enoki, kancing, dll) (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":104,
+    "Nama":"Jengkol",
+    "Satuan":"Kg",
+    "Min":10000.0,
+    "Max":200000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Jengkol (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":130,
+    "Nama":"Jeruk, jeruk bali",
+    "Satuan":"Kg",
+    "Min":5000.0,
+    "Max":75000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Jeruk, jeruk bali (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":123,
+    "Nama":"Kacang kedelai",
+    "Satuan":"Kg",
+    "Min":3000.0,
+    "Max":42000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Kacang kedelai (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":124,
+    "Nama":"Kacang lainnya",
+    "Satuan":"Kg",
+    "Min":7000.0,
+    "Max":220000.0,
+    "ButuhInput":"nama",
+    "Label":"Susenas - Kacang lainnya (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":92,
+    "Nama":"Kacang panjang",
+    "Satuan":"Kg",
+    "Min":2000.0,
+    "Max":140000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Kacang panjang (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":122,
+    "Nama":"Kacang tanah tanpa kulit",
+    "Satuan":"Kg",
+    "Min":5000.0,
+    "Max":70000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Kacang tanah tanpa kulit (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":31,
+    "Nama":"Kakap",
+    "Satuan":"Kg",
+    "Min":20000.0,
+    "Max":1200000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Kakap (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":87,
+    "Nama":"Kangkung",
+    "Satuan":"Kg",
+    "Min":3000.0,
+    "Max":52400.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Kangkung (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":176,
+    "Nama":"Kecap",
+    "Satuan":"100 ml",
+    "Min":1500.0,
+    "Max":40000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Kecap (100 ml)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":157,
+    "Nama":"Kelapa",
+    "Satuan":"Butir",
+    "Min":3000.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Kelapa (Butir)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":152,
+    "Nama":"Kelengkeng",
+    "Satuan":"Kg",
+    "Min":13000.0,
+    "Max":100000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Kelengkeng (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":48,
+    "Nama":"Kembung diawetkan\/peda",
+    "Satuan":"Ons",
+    "Min":2000.0,
+    "Max":70000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Kembung diawetkan\/peda (Ons)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":23,
+    "Nama":"Kembung, lema\/tatare, banyar\/banyara",
+    "Satuan":"Kg",
+    "Min":20000.0,
+    "Max":100000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Kembung, lema\/tatare, banyar\/banyara (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":169,
+    "Nama":"Kemiri",
+    "Satuan":"Gram",
+    "Min":5.0,
+    "Max":5000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Kemiri (Gram)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":13,
+    "Nama":"Kentang",
+    "Satuan":"Kg",
+    "Min":5000.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Kentang (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":46,
+    "Nama":"Kerang, siput, bekicot, remis",
+    "Satuan":"Kg",
+    "Min":10000.0,
+    "Max":190000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Kerang, siput, bekicot, remis (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":184,
+    "Nama":"Kerupuk",
+    "Satuan":"Ons",
+    "Min":1000.0,
+    "Max":24000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Kerupuk (Ons)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":45,
+    "Nama":"Ketam, kepiting, rajungan",
+    "Satuan":"Kg",
+    "Min":25000.0,
+    "Max":150000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Ketam, kepiting, rajungan (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":9,
+    "Nama":"Ketela pohon\/singkong",
+    "Satuan":"Kg",
+    "Min":3000.0,
+    "Max":100000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Ketela pohon\/singkong (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":10,
+    "Nama":"Ketela rambat\/ubi jalar",
+    "Satuan":"Kg",
+    "Min":3000.0,
+    "Max":32000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Ketela rambat\/ubi jalar (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":170,
+    "Nama":"Ketumbar\/jinten",
+    "Satuan":"Gram",
+    "Min":10.0,
+    "Max":1500.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Ketumbar\/jinten (Gram)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":88,
+    "Nama":"Kol\/kubis",
+    "Satuan":"Kg",
+    "Min":6000.0,
+    "Max":90000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Kol\/kubis (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":164,
+    "Nama":"Kopi (bubuk, biji)",
+    "Satuan":"Ons",
+    "Min":1000.0,
+    "Max":45000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Kopi (bubuk, biji) (Ons)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":165,
+    "Nama":"Kopi instan (sachet)",
+    "Satuan":"20 gr",
+    "Min":500.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Kopi instan (sachet) (20 gr)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":191,
+    "Nama":"Kue basah (kue lapis, bika ambon, lemper, dsb)",
+    "Satuan":"Buah",
+    "Min":500.0,
+    "Max":10000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Kue basah (kue lapis, bika ambon, lemper, dsb) (Buah)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":190,
+    "Nama":"Kue kering, biskuit, semprong",
+    "Satuan":"Ons",
+    "Min":1000.0,
+    "Max":15000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Kue kering, biskuit, semprong (Ons)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":173,
+    "Nama":"Kunyit",
+    "Satuan":"Gram",
+    "Min":8.0,
+    "Max":5000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Kunyit (Gram)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":99,
+    "Nama":"Labu, labu siam, labu parang",
+    "Satuan":"Kg",
+    "Min":3000.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Labu, labu siam, labu parang (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":186,
+    "Nama":"Lainnya",
+    "Satuan":"",
+    "Min":500.0,
+    "Max":50000.0,
+    "ButuhInput":"nama_satuan",
+    "Label":"Susenas - Lainnya"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":73,
+    "Nama":"Lainnya (hati, jeroan, iga, kaki, buntut, kepala,",
+    "Satuan":"Kg",
+    "Min":4500.0,
+    "Max":169000.0,
+    "ButuhInput":"nama",
+    "Label":"Susenas - Lainnya (hati, jeroan, iga, kaki, buntut, kepala, (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":30,
+    "Nama":"Lele",
+    "Satuan":"Kg",
+    "Min":10000.0,
+    "Max":300000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Lele (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":199,
+    "Nama":"Lontong\/ketupat sayur",
+    "Satuan":"Porsi",
+    "Min":1000.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Lontong\/ketupat sayur (Porsi)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":193,
+    "Nama":"Makanan gorengan",
+    "Satuan":"Potong",
+    "Min":500.0,
+    "Max":16000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Makanan gorengan (Potong)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":192,
+    "Nama":"Makanan gorengan (tahu, tempe, bakwan, pisang)",
+    "Satuan":"Potong",
+    "Min":1000.0,
+    "Max":10000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Makanan gorengan (tahu, tempe, bakwan, pisang) (Potong)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":211,
+    "Nama":"Makanan jadi lainnya",
+    "Satuan":"",
+    "Min":1000.0,
+    "Max":150000.0,
+    "ButuhInput":"nama_satuan",
+    "Label":"Susenas - Makanan jadi lainnya"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":205,
+    "Nama":"Makanan ringan anak-anak, krupuk\/kripik",
+    "Satuan":"Ons",
+    "Min":1000.0,
+    "Max":70000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Makanan ringan anak-anak, krupuk\/kripik (Ons)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":131,
+    "Nama":"Mangga",
+    "Satuan":"Kg",
+    "Min":8000.0,
+    "Max":70000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Mangga (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":151,
+    "Nama":"Manggis",
+    "Satuan":"Kg",
+    "Min":5400.0,
+    "Max":65060.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Manggis (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":28,
+    "Nama":"Mas",
+    "Satuan":"Kg",
+    "Min":15000.0,
+    "Max":400000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Mas (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":150,
+    "Nama":"Melon",
+    "Satuan":"Kg",
+    "Min":5000.0,
+    "Max":150000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Melon (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":95,
+    "Nama":"Mentimun",
+    "Satuan":"Kg",
+    "Min":3000.0,
+    "Max":40000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Mentimun (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":171,
+    "Nama":"Merica\/lada",
+    "Satuan":"Gram",
+    "Min":10.0,
+    "Max":5000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Merica\/lada (Gram)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":203,
+    "Nama":"Mie bakso, mie rebus, mie goreng",
+    "Satuan":"Porsi",
+    "Min":5000.0,
+    "Max":100000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Mie bakso, mie rebus, mie goreng (Porsi)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":183,
+    "Nama":"Mie instan",
+    "Satuan":"Bungkus (80",
+    "Min":1000.0,
+    "Max":30000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Mie instan (Bungkus (80)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":216,
+    "Nama":"Minuman jadi (kopi, kopi susu, teh, susu coklat, d",
+    "Satuan":"Gelas",
+    "Min":500.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Minuman jadi (kopi, kopi susu, teh, susu coklat, d (Gelas)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":219,
+    "Nama":"Minuman keras lainnya",
+    "Satuan":"Liter",
+    "Min":10000.0,
+    "Max":2000000.0,
+    "ButuhInput":"nama",
+    "Label":"Susenas - Minuman keras lainnya (Liter)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":158,
+    "Nama":"Minyak dan kelapa lainnya",
+    "Satuan":"",
+    "Min":1000.0,
+    "Max":150000.0,
+    "ButuhInput":"nama_satuan",
+    "Label":"Susenas - Minyak dan kelapa lainnya"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":156,
+    "Nama":"Minyak goreng  (kelapa sawit, bunga matahari)",
+    "Satuan":"Liter",
+    "Min":8000.0,
+    "Max":120000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Minyak goreng  (kelapa sawit, bunga matahari) (Liter)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":155,
+    "Nama":"Minyak kelapa",
+    "Satuan":"Liter",
+    "Min":15000.0,
+    "Max":118750.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Minyak kelapa (Liter)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":27,
+    "Nama":"Mujair",
+    "Satuan":"Kg",
+    "Min":15000.0,
+    "Max":350000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Mujair (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":144,
+    "Nama":"Nanas",
+    "Satuan":"Kg",
+    "Min":5000.0,
+    "Max":40000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Nanas (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":145,
+    "Nama":"Nangka",
+    "Satuan":"Kg",
+    "Min":5000.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Nangka (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":102,
+    "Nama":"Nangka muda",
+    "Satuan":"Kg",
+    "Min":500.0,
+    "Max":70000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Nangka muda (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":196,
+    "Nama":"Nasi campur\/rames",
+    "Satuan":"Porsi",
+    "Min":1000.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Nasi campur\/rames (Porsi)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":197,
+    "Nama":"Nasi goreng",
+    "Satuan":"Porsi",
+    "Min":1000.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Nasi goreng (Porsi)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":198,
+    "Nama":"Nasi putih",
+    "Satuan":"Porsi",
+    "Min":2000.0,
+    "Max":12000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Nasi putih (Porsi)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":29,
+    "Nama":"Nila",
+    "Satuan":"Kg",
+    "Min":15000.0,
+    "Max":350000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Nila (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":42,
+    "Nama":"Olahan ikan segar (siomai ikan, otak-otak ikan, dl",
+    "Satuan":"Kg",
+    "Min":10000.0,
+    "Max":120000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Olahan ikan segar (siomai ikan, otak-otak ikan, dl (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":127,
+    "Nama":"Oncom",
+    "Satuan":"Ons",
+    "Min":1000.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Oncom (Ons)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":117,
+    "Nama":"Oyong\/Gambas",
+    "Satuan":"Kg",
+    "Min":8000.0,
+    "Max":35000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Oyong\/Gambas (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":7,
+    "Nama":"Padi-padian lainnya",
+    "Satuan":"Kg",
+    "Min":5000.0,
+    "Max":60000.0,
+    "ButuhInput":"nama",
+    "Label":"Susenas - Padi-padian lainnya (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":33,
+    "Nama":"Patin",
+    "Satuan":"Kg",
+    "Min":15000.0,
+    "Max":100000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Patin (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":177,
+    "Nama":"Penyedap masakan\/vetsin",
+    "Satuan":"Gram",
+    "Min":8.0,
+    "Max":10000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Penyedap masakan\/vetsin (Gram)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":139,
+    "Nama":"Pepaya",
+    "Satuan":"Kg",
+    "Min":2000.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Pepaya (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":103,
+    "Nama":"Pepaya muda",
+    "Satuan":"Kg",
+    "Min":500.0,
+    "Max":70000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Pepaya muda (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":146,
+    "Nama":"Pir",
+    "Satuan":"Kg",
+    "Min":12000.0,
+    "Max":65000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Pir (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":138,
+    "Nama":"Pisang Muli",
+    "Satuan":"Kg",
+    "Min":5000.0,
+    "Max":6000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Pisang Muli (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":137,
+    "Nama":"Pisang ambon",
+    "Satuan":"Kg",
+    "Min":3000.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Pisang ambon (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":138,
+    "Nama":"Pisang lainnya",
+    "Satuan":"Kg",
+    "Min":3000.0,
+    "Max":35000.0,
+    "ButuhInput":"nama",
+    "Label":"Susenas - Pisang lainnya (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":133,
+    "Nama":"Rambutan",
+    "Satuan":"Kg",
+    "Min":5000.0,
+    "Max":30000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Rambutan (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":118,
+    "Nama":"Rebung",
+    "Satuan":"Kg",
+    "Min":5000.0,
+    "Max":75000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Rebung (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":225,
+    "Nama":"Rokok dan tembakau lainnya",
+    "Satuan":"",
+    "Min":300.0,
+    "Max":150000.0,
+    "ButuhInput":"nama_satuan",
+    "Label":"Susenas - Rokok dan tembakau lainnya"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":221,
+    "Nama":"Rokok kretek filter",
+    "Satuan":"Batang",
+    "Min":500.0,
+    "Max":45000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Rokok kretek filter (Batang)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":222,
+    "Nama":"Rokok kretek tanpa filter",
+    "Satuan":"Batang",
+    "Min":375.0,
+    "Max":35000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Rokok kretek tanpa filter (Batang)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":223,
+    "Nama":"Rokok putih",
+    "Satuan":"Batang",
+    "Min":600.0,
+    "Max":15000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Rokok putih (Batang)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":189,
+    "Nama":"Roti manis, roti lainnya",
+    "Satuan":"Potong",
+    "Min":1000.0,
+    "Max":25000.0,
+    "ButuhInput":"nama",
+    "Label":"Susenas - Roti manis, roti lainnya (Potong)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":188,
+    "Nama":"Roti tawar",
+    "Satuan":"Potong",
+    "Min":500.0,
+    "Max":20000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Roti tawar (Potong)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":11,
+    "Nama":"Sagu (bukan dari ketela pohon)",
+    "Satuan":"Kg",
+    "Min":3000.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Sagu (bukan dari ketela pohon) (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":136,
+    "Nama":"Salak",
+    "Satuan":"Kg",
+    "Min":3000.0,
+    "Max":30000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Salak (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":178,
+    "Nama":"Sambal jadi",
+    "Satuan":"100 ml",
+    "Min":1500.0,
+    "Max":25000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Sambal jadi (100 ml)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":215,
+    "Nama":"Sari buah kemasan",
+    "Satuan":"200 ml",
+    "Min":1000.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Sari buah kemasan (200 ml)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":202,
+    "Nama":"Sate, tongseng",
+    "Satuan":"Porsi 5 tus",
+    "Min":5000.0,
+    "Max":70000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Sate, tongseng (Porsi 5 tus)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":179,
+    "Nama":"Saus tomat",
+    "Satuan":"100 ml",
+    "Min":1500.0,
+    "Max":35000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Saus tomat (100 ml)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":90,
+    "Nama":"Sawi hijau",
+    "Satuan":"Kg",
+    "Min":5000.0,
+    "Max":52400.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Sawi hijau (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":89,
+    "Nama":"Sawi putih (petsai)",
+    "Satuan":"Kg",
+    "Min":5000.0,
+    "Max":32000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Sawi putih (petsai) (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":201,
+    "Nama":"Sayur matang (ditumis, disantan, dsb)",
+    "Satuan":"Porsi",
+    "Min":2000.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Sayur matang (ditumis, disantan, dsb) (Porsi)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":120,
+    "Nama":"Sayur-sayuran lainnya",
+    "Satuan":"Kg",
+    "Min":3000.0,
+    "Max":225000.0,
+    "ButuhInput":"nama",
+    "Label":"Susenas - Sayur-sayuran lainnya (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":22,
+    "Nama":"Selar",
+    "Satuan":"Kg",
+    "Min":20000.0,
+    "Max":80000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Selar (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":52,
+    "Nama":"Selar diawetkan",
+    "Satuan":"Ons",
+    "Min":2500.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Selar diawetkan (Ons)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":140,
+    "Nama":"Semangka",
+    "Satuan":"Kg",
+    "Min":3000.0,
+    "Max":80000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Semangka (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":53,
+    "Nama":"Sepat diawetkan",
+    "Satuan":"Ons",
+    "Min":3000.0,
+    "Max":80000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Sepat diawetkan (Ons)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":210,
+    "Nama":"Siomay, batagor",
+    "Satuan":"Porsi 5 pot",
+    "Min":2500.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Siomay, batagor (Porsi 5 pot)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":200,
+    "Nama":"Soto, gule, sop, rawon, cincang",
+    "Satuan":"Porsi",
+    "Min":3000.0,
+    "Max":85000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Soto, gule, sop, rawon, cincang (Porsi)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":81,
+    "Nama":"Susu bubuk",
+    "Satuan":"Kg",
+    "Min":20000.0,
+    "Max":500000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Susu bubuk (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":82,
+    "Nama":"Susu bubuk bayi",
+    "Satuan":"Kg",
+    "Min":25000.0,
+    "Max":1000000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Susu bubuk bayi (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":79,
+    "Nama":"Susu cair pabrik",
+    "Satuan":"Kotak kecil",
+    "Min":2000.0,
+    "Max":90000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Susu cair pabrik (Kotak kecil)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":80,
+    "Nama":"Susu kental manis",
+    "Satuan":"Kaleng (397",
+    "Min":2500.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Susu kental manis (Kaleng (397)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":84,
+    "Nama":"Susu lainnya dan hasil lain dari susu",
+    "Satuan":"",
+    "Min":1500.0,
+    "Max":300000.0,
+    "ButuhInput":"nama_satuan",
+    "Label":"Susenas - Susu lainnya dan hasil lain dari susu"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":83,
+    "Nama":"Susu murni",
+    "Satuan":"250 ml",
+    "Min":3000.0,
+    "Max":100000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Susu murni (250 ml)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":125,
+    "Nama":"Tahu",
+    "Satuan":"Kg",
+    "Min":2500.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Tahu (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":12,
+    "Nama":"Talas\/keladi",
+    "Satuan":"Kg",
+    "Min":3000.0,
+    "Max":1200000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Talas\/keladi (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":98,
+    "Nama":"Tauge",
+    "Satuan":"Kg",
+    "Min":2000.0,
+    "Max":140000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Tauge (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":162,
+    "Nama":"Teh bubuk",
+    "Satuan":"Ons",
+    "Min":500.0,
+    "Max":20000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Teh bubuk (Ons)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":163,
+    "Nama":"Teh celup (sachet)",
+    "Satuan":"2 gr",
+    "Min":100.0,
+    "Max":5000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Teh celup (sachet) (2 gr)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":76,
+    "Nama":"Telur ayam kampung",
+    "Satuan":"Butir",
+    "Min":2000.0,
+    "Max":35000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Telur ayam kampung (Butir)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":75,
+    "Nama":"Telur ayam ras",
+    "Satuan":"Butir",
+    "Min":1500.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Telur ayam ras (Butir)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":77,
+    "Nama":"Telur itik\/telur itik manila",
+    "Satuan":"Butir",
+    "Min":2500.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Telur itik\/telur itik manila (Butir)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":78,
+    "Nama":"Telur lainnya (telur puyuh, telur asin mentah maup",
+    "Satuan":"Butir",
+    "Min":300.0,
+    "Max":12000.0,
+    "ButuhInput":"nama",
+    "Label":"Susenas - Telur lainnya (telur puyuh, telur asin mentah maup (Butir)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":224,
+    "Nama":"Tembakau",
+    "Satuan":"Ons",
+    "Min":150.0,
+    "Max":100000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Tembakau (Ons)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":126,
+    "Nama":"Tempe",
+    "Satuan":"Kg",
+    "Min":3000.0,
+    "Max":140000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Tempe (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":21,
+    "Nama":"Tenggiri",
+    "Satuan":"Kg",
+    "Min":20000.0,
+    "Max":125000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Tenggiri (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":49,
+    "Nama":"Tenggiri diawetkan",
+    "Satuan":"Ons",
+    "Min":5000.0,
+    "Max":30000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Tenggiri diawetkan (Ons)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":6,
+    "Nama":"Tepung terigu",
+    "Satuan":"Kg",
+    "Min":4000.0,
+    "Max":24000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Tepung terigu (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":175,
+    "Nama":"Terasi\/petis",
+    "Satuan":"Gram",
+    "Min":10.0,
+    "Max":10000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Terasi\/petis (Gram)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":24,
+    "Nama":"Teri basah",
+    "Satuan":"Kg",
+    "Min":18000.0,
+    "Max":61000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Teri basah (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":51,
+    "Nama":"Teri diawetkan",
+    "Satuan":"Ons",
+    "Min":3000.0,
+    "Max":70000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Teri diawetkan (Ons)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":97,
+    "Nama":"Terong",
+    "Satuan":"Kg",
+    "Min":4000.0,
+    "Max":140000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Terong (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":72,
+    "Nama":"Tetelan, sandung lamur",
+    "Satuan":"Kg",
+    "Min":25000.0,
+    "Max":190000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Tetelan, sandung lamur (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":141,
+    "Nama":"Tomat buah",
+    "Satuan":"Kg",
+    "Min":5000.0,
+    "Max":50000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Tomat buah (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":93,
+    "Nama":"Tomat sayur, tomat ceri",
+    "Satuan":"Kg",
+    "Min":4000.0,
+    "Max":67800.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Tomat sayur, tomat ceri (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":18,
+    "Nama":"Tongkol",
+    "Satuan":"Kg",
+    "Min":20000.0,
+    "Max":800000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Tongkol (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":50,
+    "Nama":"Tongkol\/tuna\/cakalang diawetkan",
+    "Satuan":"Ons",
+    "Min":3500.0,
+    "Max":80000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Tongkol\/tuna\/cakalang diawetkan (Ons)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":19,
+    "Nama":"Tuna",
+    "Satuan":"Kg",
+    "Min":20000.0,
+    "Max":800000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Tuna (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":60,
+    "Nama":"Udang dan hewan air lainnya yang diawetkan",
+    "Satuan":"Ons",
+    "Min":3000.0,
+    "Max":35000.0,
+    "ButuhInput":"nama",
+    "Label":"Susenas - Udang dan hewan air lainnya yang diawetkan (Ons)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":47,
+    "Nama":"Udang dan hewan air lainnya yang segar lainnya",
+    "Satuan":"Kg",
+    "Min":10000.0,
+    "Max":210000.0,
+    "ButuhInput":"nama",
+    "Label":"Susenas - Udang dan hewan air lainnya yang segar lainnya (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":58,
+    "Nama":"Udang diawetkan (ebi, rebon)",
+    "Satuan":"Ons",
+    "Min":2000.0,
+    "Max":180000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Udang diawetkan (ebi, rebon) (Ons)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":43,
+    "Nama":"Udang, lobster",
+    "Satuan":"Kg",
+    "Min":10000.0,
+    "Max":250000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Udang, lobster (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":15,
+    "Nama":"Umbi-umbian lainnya",
+    "Satuan":"Kg",
+    "Min":3000.0,
+    "Max":50000.0,
+    "ButuhInput":"nama",
+    "Label":"Susenas - Umbi-umbian lainnya (Kg)"
+  },
+  {
+    "Sumber":"Susenas",
+    "Kode":94,
+    "Nama":"Wortel",
+    "Satuan":"Kg",
+    "Min":8000.0,
+    "Max":65000.0,
+    "ButuhInput":null,
+    "Label":"Susenas - Wortel (Kg)"
+  }
+]

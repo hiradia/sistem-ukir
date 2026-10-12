@@ -1,0 +1,245 @@
+[
+  {
+    "waktu": "2026-08-24 13:57:18",
+    "nama": "Cabe merah",
+    "sumber": "Susenas",
+    "satuan": "Kg",
+    "harga": 5000,
+    "status": "WAJAR",
+    "wajar": true
+  },
+  {
+    "waktu": "2026-08-24 13:52:18",
+    "nama": "Cabe merah",
+    "sumber": "Susenas",
+    "satuan": "Kg",
+    "harga": 5000,
+    "status": "WAJAR",
+    "wajar": true
+  },
+  {
+    "waktu": "2026-08-24 13:47:18",
+    "nama": "Harga Listrik",
+    "sumber": "Seruti",
+    "satuan": "Kg",
+    "harga": 5000,
+    "status": "WAJAR",
+    "wajar": true
+  },
+  {
+    "waktu": "2026-08-24 13:42:18",
+    "nama": "Harga Listrik",
+    "sumber": "Seruti",
+    "satuan": "Kg",
+    "harga": 5000,
+    "status": "WAJAR",
+    "wajar": true
+  },
+  {
+    "waktu": "2026-08-24 13:37:18",
+    "nama": "Jeruk, jeruk bali",
+    "sumber": "Susenas",
+    "satuan": "Kg",
+    "harga": 5000,
+    "status": "WAJAR",
+    "wajar": true
+  },
+  {
+    "waktu": "2026-08-24 13:32:18",
+    "nama": "Hasil lain dari susu (keju, yoghurt, dsb.)",
+    "sumber": "Susenas",
+    "satuan": "Kg",
+    "harga": 5000,
+    "status": "WAJAR",
+    "wajar": true
+  },
+  {
+    "waktu": "2026-08-24 13:27:18",
+    "nama": "Cabai hijau",
+    "sumber": "Susenas",
+    "satuan": "Kg",
+    "harga": 5000,
+    "status": "WAJAR",
+    "wajar": true
+  },
+  {
+    "waktu": "2026-09-02 09:50:20",
+    "nama": "Daging ayam",
+    "sumber": "Seruti",
+    "satuan": "Kg",
+    "harga": 54000.0,
+    "status": "WAJAR",
+    "wajar": true
+  },
+  {
+    "waktu": "2026-09-02 09:51:17",
+    "nama": "Hasil lain dari susu (keju, yoghurt, dsb.) - yoghurt",
+    "sumber": "Seruti",
+    "satuan": "liter",
+    "harga": 25000.0,
+    "status": "WAJAR",
+    "wajar": true
+  },
+  {
+    "waktu": "2026-09-09 16:53:37",
+    "nama": "Buah-buahan (Jeruk, Mangga, Apel, Pepaya, Melon, Semangka, Alpukat, Nanas, Pisan",
+    "sumber": "Seruti",
+    "satuan": "Kg",
+    "harga": 34000.0,
+    "status": "WAJAR",
+    "wajar": true
+  },
+  {
+    "waktu": "2026-09-09 17:12:47",
+    "nama": "Cabai hijau",
+    "sumber": "Seruti",
+    "satuan": "Kg",
+    "harga": 44800.0,
+    "status": "WAJAR",
+    "wajar": true
+  },
+  {
+    "waktu": "2026-09-10 07:07:24",
+    "nama": "Hasil lain dari susu (keju, yoghurt, dsb.) - yoghurt",
+    "sumber": "Seruti",
+    "satuan": "liter",
+    "harga": 16000.0,
+    "status": "WAJAR",
+    "wajar": true
+  },
+  {
+    "waktu": "2026-09-10 07:13:32",
+    "nama": "Hasil lain dari susu (keju, yoghurt, dsb.) - keju",
+    "sumber": "Seruti",
+    "satuan": "kg",
+    "harga": 55000.0,
+    "status": "WAJAR",
+    "wajar": true
+  },
+  {
+    "waktu": "2026-09-10 07:28:40",
+    "nama": "Kue kering, biskuit, semprong",
+    "sumber": "Seruti",
+    "satuan": "Ons",
+    "harga": 5500.0,
+    "status": "WAJAR",
+    "wajar": true
+  },
+  {
+    "waktu": "2026-09-10 07:29:57",
+    "nama": "Buah-buahan (Jeruk, Mangga, Apel, Pepaya, Melon, Semangka, Alpukat, Nanas, Pisan",
+    "sumber": "Seruti",
+    "satuan": "Kg",
+    "harga": 22400.0,
+    "status": "WAJAR",
+    "wajar": true
+  },
+  {
+    "waktu": "2026-09-10 07:30:28",
+    "nama": "Gula merah, gula air (pohon aren, kelapa, lontar)",
+    "sumber": "Susenas",
+    "satuan": "Ons",
+    "harga": 13450.0,
+    "status": "WAJAR",
+    "wajar": true
+  },
+  {
+    "waktu": "2026-09-10 07:30:47",
+    "nama": "Beras (beras lokal, kualitas unggul, impor)",
+    "sumber": "Susenas",
+    "satuan": "Kg",
+    "harga": 15000.0,
+    "status": "WAJAR",
+    "wajar": true
+  },
+  {
+    "waktu": "2026-09-10 12:18:27",
+    "nama": "Tahu",
+    "sumber": "Susenas",
+    "satuan": "Kg",
+    "harga": 15600.0,
+    "status": "WAJAR",
+    "wajar": true
+  },
+  {
+    "waktu": "2026-09-10 12:18:53",
+    "nama": "Tempe",
+    "sumber": "Susenas",
+    "satuan": "Kg",
+    "harga": 17650.0,
+    "status": "WAJAR",
+    "wajar": true
+  },
+  {
+    "waktu": "2026-09-10 14:07:53",
+    "nama": "A. Nilai sewa sebulan",
+    "sumber": "Seruti",
+    "satuan": "bulan",
+    "harga": 2345000.0,
+    "status": "WAJAR",
+    "wajar": true
+  },
+  {
+    "waktu": "2026-09-10 14:15:05",
+    "nama": "Mangga",
+    "sumber": "Susenas",
+    "satuan": "Kg",
+    "harga": 36500.0,
+    "status": "WAJAR",
+    "wajar": true
+  },
+  {
+    "waktu": "2026-09-17 03:58:11",
+    "nama": "Beras (beras lokal, kualitas unggul, impor)",
+    "sumber": "Susenas",
+    "satuan": "Kg",
+    "harga": 200100.0,
+    "status": "TIDAK WAJAR - CEK ULANG KE RESPONDEN",
+    "wajar": false
+  },
+  {
+    "waktu": "2026-09-21 15:31:23",
+    "nama": "Hasil lain dari susu (keju, yoghurt, dsb.) - keju",
+    "sumber": "Seruti",
+    "satuan": "kg",
+    "harga": 34488.0,
+    "status": "WAJAR",
+    "wajar": true
+  },
+  {
+    "waktu": "2026-09-21 15:31:42",
+    "nama": "Air teh kemasan, minuman bersoda/mengandung CO2",
+    "sumber": "Seruti",
+    "satuan": "250 ml",
+    "harga": 5600.0,
+    "status": "WAJAR",
+    "wajar": true
+  },
+  {
+    "waktu": "2026-09-22 05:27:30",
+    "nama": "Mangga",
+    "sumber": "Susenas",
+    "satuan": "Kg",
+    "harga": 45000.0,
+    "status": "WAJAR",
+    "wajar": true
+  },
+  {
+    "waktu": "2026-09-25 04:08:24",
+    "nama": "Beras (beras lokal, medium, premium, impor, dan beras ketan)",
+    "sumber": "Seruti",
+    "satuan": "Kg",
+    "harga": 10000.0,
+    "status": "WAJAR",
+    "wajar": true
+  },
+  {
+    "waktu": "2026-10-02 08:17:47",
+    "nama": "Hasil lain dari susu (keju, yoghurt, dsb.) - yoghurt",
+    "sumber": "Seruti",
+    "satuan": "liter",
+    "harga": 34000.0,
+    "status": "WAJAR",
+    "wajar": true
+  }
+]

@@ -1,0 +1,194 @@
+{% extends "base.html" %}
+{% block title %}Beranda{% endblock %}
+
+{% block content %}
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-shapes" aria-hidden="true">
+      <div class="hero-shape shape-oranye"></div>
+      <div class="hero-shape shape-biru"></div>
+      <div class="hero-shape shape-hijau"></div>
+    </div>
+    <div class="hero-inner">
+      <div class="eyebrow">Kota Tasikmalaya (32/78)</div>
+      <h1 class="hero-title">
+        Ukur <span class="hero-highlight">Kewajaran</span>,<br class="hero-br">
+        Kira <span class="hero-highlight hero-highlight-2">Perubahan</span>.
+      </h1>
+      <p class="hero-subtitle">
+        Cek kewajaran harga hasil wawancara, lihat tren dan prediksi harga,
+        serta telusuri referensi komoditas Susenas, Seruti, dan PIHPS dalam satu alat.
+      </p>
+      <div class="hero-cta">
+        <a href="{{ url_for('cek_kewajaran') }}" class="btn-hero-primary">Mulai Cek Harga →</a>
+        <a href="{{ url_for('prediksi') }}" class="btn-hero-secondary">Lihat Prediksi</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats-row">
+    <div class="stat-item">
+      <span class="stat-number">{{ jumlah_susenas }}</span>
+      <span class="stat-label">Susenas</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-number">{{ jumlah_seruti }}</span>
+      <span class="stat-label">Seruti</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-number">{{ jumlah_pihps }}</span>
+      <span class="stat-label">PIHPS</span>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="menu-grid">
+    <a href="{{ url_for('cek_kewajaran') }}" class="menu-card featured" data-accent="oranye">
+      <div class="menu-card-header">
+        <div class="menu-icon-wrap">
+          <svg class="menu-icon" viewBox="0 0 24 24" fill="none"><path d="M9 12L11 14L15.5 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/></svg>
+        </div>
+        <span class="menu-tag">Tersedia</span>
+      </div>
+      <h2>Cek Kewajaran</h2>
+      <p>Masukkan harga hasil wawancara dan lihat apakah harga tersebut berada dalam rentang kewajaran.</p>
+      <span class="menu-arrow">→</span>
+    </a>
+
+    <a href="{{ url_for('prediksi') }}" class="menu-card featured" data-accent="biru">
+      <div class="menu-card-header">
+        <div class="menu-icon-wrap">
+          <svg class="menu-icon" viewBox="0 0 24 24" fill="none"><path d="M4 18L9.5 12L13.5 15L20 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 7H20V12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <span class="menu-tag">Tersedia</span>
+      </div>
+      <h2>Prediksi Harga</h2>
+      <p>Pilih komoditas tertentu untuk melihat perkiraan harga dan arah perubahan di masa mendatang.</p>
+      <span class="menu-arrow">→</span>
+    </a>
+
+    <a href="{{ url_for('riwayat') }}" class="menu-card" data-accent="hijau">
+      <div class="menu-card-header">
+        <div class="menu-icon-wrap">
+          <svg class="menu-icon" viewBox="0 0 24 24" fill="none"><path d="M4 4V10H10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M4.5 15A8 8 0 1 0 6 8.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <span class="menu-tag">Tersedia</span>
+      </div>
+      <h2>Riwayat</h2>
+      <p>Catatan pengecekan yang pernah dilakukan, lengkap dengan tren dan ekspor Excel.</p>
+      <span class="menu-arrow">→</span>
+    </a>
+
+    <a href="{{ url_for('komoditas') }}" class="menu-card" data-accent="oranye">
+      <div class="menu-card-header">
+        <div class="menu-icon-wrap">
+          <svg class="menu-icon" viewBox="0 0 24 24" fill="none"><path d="M4 6H20M4 12H20M4 18H14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <span class="menu-tag">Tersedia</span>
+      </div>
+      <h2>Daftar Komoditas</h2>
+      <p>Seluruh komoditas Susenas, Seruti, dan PIHPS dengan satuan dan informasi harga.</p>
+      <span class="menu-arrow">→</span>
+    </a>
+
+    <a href="{{ url_for('about') }}" class="menu-card" data-accent="biru">
+      <div class="menu-card-header">
+        <div class="menu-icon-wrap">
+          <svg class="menu-icon" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M12 11V16.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="7.8" r="1.1" fill="currentColor"/></svg>
+        </div>
+        <span class="menu-tag">Tersedia</span>
+      </div>
+      <h2>Tentang</h2>
+      <p>Informasi latar belakang dan tujuan dibuatnya alat ini.</p>
+      <span class="menu-arrow">→</span>
+    </a>
+  </section>
+
+  <!-- CARA KERJA -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-eyebrow">Cara Kerja</div>
+      <h2 class="section-title">Tiga Langkah, Selesai dalam Hitungan Detik</h2>
+      <p class="section-desc">Dibuat sesederhana mungkin agar dapat langsung dipakai.</p>
+    </div>
+    <div class="steps-grid">
+      <div class="step-card">
+        <div class="step-number">01</div>
+        <h3>Cari Komoditas</h3>
+        <p>Ketik nama komoditas. Sistem akan otomatis mencarinya meskipun terdapat typo atau beda ejaan antar-survei.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-number">02</div>
+        <h3>Masukkan Harga</h3>
+        <p>Isi harga hasil wawancara. Untuk kategori "lainnya", isi juga nama spesifik dan satuannya.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-number">03</div>
+        <h3>Lihat Hasil</h3>
+        <p>Langsung diketahui wajar atau tidak. Hasil tercatat otomatis ke riwayat dan dapat di-export ke Excel.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOROTAN PASAR -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-eyebrow">Sorotan Pasar</div>
+      <h2 class="section-title">Harga Pangan Terbaru</h2>
+      <p class="section-desc">Rata-rata bulanan PIHPS Bank Indonesia · Pasar Tradisional Kota Tasikmalaya · Periode data {{ bulan_terakhir }}</p>
+    </div>
+    <div class="sorotan-grid">
+      {% for item in sorotan_pasar %}
+      <div class="sorotan-card">
+        <div class="sorotan-nama">{{ item.nama }}</div>
+        <div class="sorotan-harga">Rp {{ "{:,.0f}".format(item.harga).replace(",", ".") }}</div>
+        <div class="sorotan-trend {{ 'naik' if item.naik else 'turun' }}">
+          {{ '▲' if item.naik else '▼' }} {{ item.persen|abs }}%
+          <span class="sorotan-periode">vs bulan lalu</span>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- ABOUT SPLIT -->
+  <section class="section">
+    <div class="split-section">
+      <div class="split-image">
+        <div class="split-image-decor" aria-hidden="true"></div>
+        <img src="{{ url_for('static', filename='images/kantor-bps-tasikmalaya.jpg') }}"
+             alt="Gedung BPS Kota Tasikmalaya">
+      </div>
+      <div class="split-text">
+        <div class="section-eyebrow">Tentang UKIR</div>
+        <h2 class="section-title left">Dikembangkan di BPS Kota Tasikmalaya</h2>
+        <p>UKIR dibuat sebagai bagian dari Kerja Praktek, untuk membantu mengecek kewajaran harga hasil wawancara dengan cepat dan efisien, serta memprediksi harga pangan strategis.</p>
+        <ul class="split-list">
+          <li>Referensi batas wajar resmi dari data Susenas &amp; Seruti</li>
+          <li>Prediksi harga 6 bulan ke depan dari data PIHPS Bank Indonesia</li>
+          <li>Riwayat pengecekan tersimpan otomatis, dapat di-export ke Excel</li>
+        </ul>
+        <a href="{{ url_for('about') }}" class="btn-text">Selengkapnya →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="cta-block">
+      <div class="cta-shape cta-shape-1"></div>
+      <div class="cta-shape cta-shape-2"></div>
+      <div class="cta-content">
+        <h2>Siap Mulai?</h2>
+        <p>Cek kewajaran harga dalam hitungan detik, atau lihat prediksi harga 6 bulan ke depan.</p>
+        <div class="cta-buttons">
+          <a href="{{ url_for('cek_kewajaran') }}" class="btn-cta">Mulai Cek Harga →</a>
+          <a href="{{ url_for('prediksi') }}" class="btn-cta-secondary">Lihat Prediksi</a>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

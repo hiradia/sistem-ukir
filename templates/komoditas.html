@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %}Daftar Komoditas{% endblock %}
+
+{% block content %}
+  <section class="page-wide">
+    <div class="eyebrow">Susenas, Seruti, &amp; PIHPS — Kota Tasikmalaya</div>
+    <h1 class="hero-title small">Daftar Komoditas</h1>
+    <p class="hero-subtitle left">
+      Kumpulan komoditas dari tiga sumber: <strong>Susenas</strong> &amp; <strong>Seruti</strong>
+      (batas wajar BPS untuk validasi) dan <strong>PIHPS Bank Indonesia</strong>
+      (kisaran harga historis pasar, Jan 2023 – Agu 2026).
+    </p>
+
+    <div class="toolbar">
+      <div class="chip-group">
+        <button class="chip active" data-filter="Semua">Semua</button>
+        <button class="chip" data-filter="Susenas">Susenas</button>
+        <button class="chip" data-filter="Seruti">Seruti</button>
+        <button class="chip" data-filter="PIHPS">PIHPS</button>
+      </div>
+      <input type="text" id="k-search" class="k-search" placeholder="Cari komoditas...">
+    </div>
+
+    <p id="k-count" class="k-count"></p>
+
+    <div class="table-wrap">
+      <table class="k-table">
+        <thead>
+          <tr>
+            <th>Sumber</th>
+            <th>Nama Komoditas</th>
+            <th>Satuan</th>
+            <th class="right">Info Harga (Rp)</th>
+          </tr>
+        </thead>
+        <tbody id="k-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <script id="komoditas-data" type="application/json">{{ data|tojson }}</script>
+  <script id="pihps-data" type="application/json">{{ data_pihps|tojson }}</script>
+{% endblock %}
+
+{% block scripts %}
+  <script src="{{ url_for('static', filename='komoditas.js') }}"></script>
+{% endblock %}

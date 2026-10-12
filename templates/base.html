@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}UKIR{% endblock %} — Ukur Kewajaran, Kira Perubahan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600&family=Righteous&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+  <div class="bg-decoration" aria-hidden="true">
+    <div class="bg-noise"></div>
+    <div class="bg-dots"></div>
+    <div class="bg-blob bg-blob-1"></div>
+    <div class="bg-blob bg-blob-2"></div>
+  </div>
+
+  <nav class="navbar">
+    <a href="{{ url_for('home') }}" class="nav-brand">
+  <img src="{{ url_for('static', filename='images/logo-ukir.png') }}" alt="UKIR" class="nav-logo">
+  <span class="nav-brand-text">UKIR</span>
+</a>
+
+    {% if session.get('logged_in') %}
+      <button id="hamburger-btn" class="hamburger-btn" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div id="nav-links" class="nav-links">
+        <a href="{{ url_for('home') }}" class="{{ 'active' if active_page == 'home' else '' }}">Beranda</a>
+        <a href="{{ url_for('cek_kewajaran') }}" class="{{ 'active' if active_page == 'cek' else '' }}">Cek</a>
+        <a href="{{ url_for('prediksi') if prediksi_ready else '#' }}" class="{{ 'active' if active_page == 'prediksi' else '' }}{{ ' disabled' if not prediksi_ready else '' }}">Prediksi</a>
+        <a href="{{ url_for('komoditas') if komoditas_ready else '#' }}" class="{{ 'active' if active_page == 'komoditas' else '' }}{{ ' disabled' if not komoditas_ready else '' }}">Komoditas</a>
+        <a href="{{ url_for('riwayat') }}" class="{{ 'active' if active_page == 'riwayat' else '' }}">Riwayat</a>
+        <a href="{{ url_for('about') if about_ready else '#' }}" class="{{ 'active' if active_page == 'about' else '' }}{{ ' disabled' if not about_ready else '' }}">Tentang</a>
+        <a href="{{ url_for('logout') }}" class="nav-logout">Keluar</a>
+      </div>
+    {% endif %}
+  </nav>
+
+  <div class="page-content">
+    {% block content %}{% endblock %}
+  </div>
+
+  {% if session.get('logged_in') %}
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col footer-brand-col">
+        <img src="{{ url_for('static', filename='images/logo-ukir.png') }}" alt="UKIR" class="footer-logo">
+        <p class="footer-tagline">Ukur Kewajaran, Kira Perubahan.</p>
+        <p class="footer-desc">Alat bantu pengecekan harga hasil wawancara Susenas &amp; Seruti, dengan prediksi harga berbasis data PIHPS Bank Indonesia.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigasi</h4>
+        <ul>
+          <li><a href="{{ url_for('home') }}">Beranda</a></li>
+          <li><a href="{{ url_for('cek_kewajaran') }}">Cek</a></li>
+          <li><a href="{{ url_for('prediksi') }}">Prediksi</a></li>
+          <li><a href="{{ url_for('riwayat') }}">Riwayat</a></li>
+          <li><a href="{{ url_for('komoditas') }}">Komoditas</a></li>
+          <li><a href="{{ url_for('about') }}">Tentang</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Sumber Data</h4>
+        <ul>
+          <li><span class="footer-plain">Susenas &amp; Seruti — BPS</span></li>
+          <li><a href="https://www.bi.go.id/hargapangan" target="_blank" rel="noopener">PIHPS — Bank Indonesia</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="footer-year"></span> UKIR — Dibuat sebagai bagian dari Kerja Praktek.</span>
+    </div>
+  </footer>
+  {% endif %}
+
+  <script src="{{ url_for('static', filename='navbar.js') }}"></script>
+  <script>document.getElementById("footer-year").textContent = new Date().getFullYear();</script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>
