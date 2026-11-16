@@ -2,7 +2,7 @@
   "terakhir_update": "25 Agustus 2026",
   "cakupan": "10 komoditas pangan strategis, Kota Tasikmalaya, Pasar Tradisional (PIHPS - Bank Indonesia)",
   "periode_historis": "1 Januari 2023 - 25 Agustus 2026",
-  "metode": "SARIMA(1,1,1)(1,1,0,12) -- dipilih lewat backtest, akurasi rata-rata (MAPE) 9.0%, ngalahin Holt-Winters (15.2%) dan Prophet (11.0%) untuk data ini.",
+  "metode": "SARIMA(1,1,1)(1,1,0,12)",
   "historis_bulanan": {
     "Telur Ayam": {
       "bulan": [
