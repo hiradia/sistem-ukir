@@ -1,5 +1,5 @@
 // ----------------------------------------------------------------
-// Ambil semua elemen HTML yang bakal dipakai
+// Ambil semua elemen HTML yang akan dipakai
 // ----------------------------------------------------------------
 const searchInput = document.getElementById("search");
 const suggestionsBox = document.getElementById("suggestions");
@@ -23,12 +23,12 @@ const statusStamp = document.getElementById("status-stamp");
 const statusCaption = document.getElementById("status-caption");
 const btnCatat = document.getElementById("btn-catat");
 
-let selectedLabel = null;   // komoditas yang lagi dipilih
-let selectedItem = null;    // data lengkapnya (Min/Max), buat hitung preview di browser
-let debounceTimer = null;   // buat nunda pencarian pas user masih ngetik
+let selectedLabel = null;   // komoditas yang sedang dipilih
+let selectedItem = null;    // data lengkapnya (Min/Max), untuk menghitung preview di browser
+let debounceTimer = null;   // untuk menunda pencarian saat user masih mengetik
 
 // ----------------------------------------------------------------
-// Format angka jadi "Rp 15.000" biar gampang dibaca
+// Format angka menjadi "Rp 15.000" agar mudah dibaca
 // ----------------------------------------------------------------
 function formatRupiah(angka) {
   return "Rp " + Number(angka).toLocaleString("id-ID");
@@ -36,14 +36,13 @@ function formatRupiah(angka) {
 
 // ----------------------------------------------------------------
 // 1. Search-as-you-type
-//    "debounce" = tunggu 200ms setelah user berhenti ngetik,
-//    biar gak nembak request ke server tiap 1 huruf diketik.
+//    "debounce" = tunggu 200ms setelah user berhenti ngetik.
 // ----------------------------------------------------------------
 searchInput.addEventListener("input", () => {
   clearTimeout(debounceTimer);
   const query = searchInput.value.trim();
 
-  // kalau user ngetik ulang, anggap pilihan lama gak valid lagi
+  // jika user mengetik ulang, pilihan lama dianggap tidak valid lagi
   selectedLabel = null;
   resetHasil();
 
@@ -82,7 +81,7 @@ function tampilkanSaran(daftar) {
 }
 
 // ----------------------------------------------------------------
-// 2. Pas user klik salah satu saran
+// 2. Ketika user mengklik salah satu saran
 // ----------------------------------------------------------------
 function pilihKomoditas(item) {
   selectedLabel = item.Label;
@@ -99,8 +98,8 @@ function pilihKomoditas(item) {
   posisiMax.textContent = `Max ${formatRupiah(item.Max)}`;
   posisiBox.classList.add("hidden");
 
-  // Komoditas kategori "lainnya" -- munculin input tambahan sesuai kebutuhan.
-  // ButuhInput: null (gak perlu apa-apa) / "nama" (nama doang) / "nama_satuan" (dua-duanya)
+  // Komoditas kategori "lainnya" -- memunculkan input tambahan sesuai kebutuhan.
+  // ButuhInput: null / "nama" / "nama_satuan" (dua-duanya)
   namaLainInput.value = "";
   satuanLainInput.value = "";
   fieldNamaLain.classList.toggle("hidden", !item.ButuhInput);
@@ -126,7 +125,7 @@ function resetHasil() {
   btnCatat.disabled = true;
 }
 
-// Cek apakah semua input yang WAJIB diisi (sesuai ButuhInput) udah keisi.
+// Cek apakah semua input yang WAJIB diisi (sesuai ButuhInput) sudah terisi.
 function inputLengkap() {
   if (!selectedItem) return false;
   if (selectedItem.ButuhInput && !namaLainInput.value.trim()) return false;
@@ -135,9 +134,8 @@ function inputLengkap() {
 }
 
 // ----------------------------------------------------------------
-// 3. Preview status -- dihitung LANGSUNG DI BROWSER, gak manggil server,
-//    jadi gak kecatat ke riwayat. Ini cuma buat feedback instan sambil
-//    user masih ngetik/belum yakin sama angkanya.
+// 3. Preview status -- dihitung langsung di browser,
+//    jadi tidak tercatat ke riwayat.
 // ----------------------------------------------------------------
 hargaInput.addEventListener("input", () => {
   const harga = Number(hargaInput.value);
@@ -155,9 +153,8 @@ hargaInput.addEventListener("input", () => {
   btnCatat.disabled = !inputLengkap();
 });
 
-// Hitung & tampilin posisi harga di dalam rentang Min-Max sebagai progress bar.
-// Ini cuma tambahan visual (bukan pengganti status WAJAR/TIDAK WAJAR),
-// buat kasih gambaran seberapa jauh harga dari batas, bukan cuma lolos/nggak.
+// Hitung & tampilkan posisi harga di dalam rentang Min-Max sebagai progress bar,
+// untuk memberikan gambaran seberapa jauh harga dari batas.
 function tampilkanPosisi(harga, item, wajar) {
   const rentang = item.Max - item.Min;
 
@@ -165,7 +162,7 @@ function tampilkanPosisi(harga, item, wajar) {
   let caption;
 
   if (rentang <= 0) {
-    // Jaga-jaga kalau Min == Max di data (rentangnya nol) -- hindari bagi dengan nol.
+    // Jaga-jaga jika Min == Max di data (rentangnya nol).
     persen = 50;
     caption = wajar ? "Sama dengan batas wajar" : "Di luar batas wajar";
   } else if (harga < item.Min) {
@@ -188,8 +185,7 @@ function tampilkanPosisi(harga, item, wajar) {
   posisiBox.classList.remove("hidden");
 }
 
-// Input nama/satuan tambahan juga ikut ngaruh ke aktif/nggaknya tombol,
-// soalnya harga bisa aja udah keisi duluan sebelum nama-lain diisi.
+// Input nama/satuan tambahan juga ikut berpengaruh ke aktif/tidaknya tombol.
 namaLainInput.addEventListener("input", () => {
   btnCatat.disabled = !(hargaInput.value !== "" && inputLengkap());
 });
@@ -198,8 +194,7 @@ satuanLainInput.addEventListener("input", () => {
 });
 
 // ----------------------------------------------------------------
-// 4. Tombol "Cek & Catat" -- baru di titik INI manggil server,
-//    dan baru di titik ini kecatat ke riwayat (lewat /api/cek).
+// 4. Tombol "Cek & Catat" 
 // ----------------------------------------------------------------
 btnCatat.addEventListener("click", async () => {
   if (!selectedLabel || hargaInput.value === "" || !inputLengkap()) return;
@@ -225,8 +220,8 @@ btnCatat.addEventListener("click", async () => {
   await res.json();
   tampilkanToast("Berhasil dicatat ke riwayat");
 
-  // Reset supaya gak bisa ke-klik dobel buat data yang sama --
-  // user "mulai dari awal" lagi buat komoditas berikutnya.
+  // Reset agar tidak bisa ke-klik dobel untuk data yang sama,
+  // user "mulai dari awal" lagi untuk komoditas berikutnya.
   hargaInput.value = "";
   namaLainInput.value = "";
   satuanLainInput.value = "";
@@ -235,8 +230,7 @@ btnCatat.addEventListener("click", async () => {
 });
 
 // ----------------------------------------------------------------
-// 5. Toast -- notifikasi kecil di tengah layar, muncul sebentar
-//    terus ilang sendiri.
+// 5. Toast -- notifikasi kecil di tengah layar.
 // ----------------------------------------------------------------
 let toastTimer = null;
 
@@ -270,7 +264,7 @@ function tampilkanStatus(wajar, caption) {
   statusStamp.className = "stamp " + (wajar ? "wajar" : "tidak-wajar");
   statusCaption.textContent = caption;
 
-  // trik biar animasi CSS keputer ulang tiap kali status berubah
+  // agar animasi CSS terputar ulang setiap kali status berubah
   void statusStamp.offsetWidth;
   statusStamp.style.animation = "none";
   void statusStamp.offsetWidth;
@@ -280,7 +274,7 @@ function tampilkanStatus(wajar, caption) {
 }
 
 // ----------------------------------------------------------------
-// Tutup dropdown saran kalau user klik di luar search box
+// Tutup dropdown saran jika user klik di luar search box
 // ----------------------------------------------------------------
 document.addEventListener("click", (e) => {
   if (!e.target.closest(".search-wrap")) {
