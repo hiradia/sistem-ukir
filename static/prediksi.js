@@ -1,12 +1,3 @@
-// Halaman Prediksi Harga -- 4 bagian:
-// 1. Ringkasan semua komoditas (grid kartu kecil)
-// 2. Detail 1 komoditas (chart historis + prediksi)
-// 3. Bandingin beberapa komoditas (chart multi-garis, mode ganti dari #2)
-// 4. Cek harga di bulan tertentu (lookup langsung tanpa baca chart)
-//
-// Semua data (historis + prediksi) sudah di-embed dari server (PREDIKSI_DATA),
-// jadi ganti-ganti tampilan di sini gak perlu manggil API lagi.
-
 const WARNA_GARIS = ["#2a78d6", "#eb6834", "#008B45", "#8B5CF6", "#DB2777"];
 
 function formatRupiah(angka) {
@@ -49,7 +40,7 @@ function gambarRingkasan() {
 
 // ============ 2 & 3. CHART DETAIL / PERBANDINGAN ============
 let chartInstance = null;
-let mode = "detail"; // "detail" | "bandingin"
+let mode = "detail";
 
 const pilihKomoditas = document.getElementById("pilih-komoditas");
 const wrapTunggal = document.getElementById("wrap-pilih-tunggal");
@@ -162,7 +153,6 @@ function gambarChartBandingin(daftarNama) {
   });
 }
 
-// Toggle mode detail <-> bandingin
 document.querySelectorAll(".mode-btn").forEach((btn) => {
   btn.addEventListener("click", () => {
     document.querySelectorAll(".mode-btn").forEach((b) => b.classList.remove("active"));
