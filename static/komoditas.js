@@ -1,5 +1,3 @@
-// Data komoditas sudah di-embed langsung dari server (lihat komoditas.html),
-// jadi gak perlu request API terpisah -- cukup sekali load pas halaman dibuka.
 const DATA_SUSENAS_SERUTI = JSON.parse(document.getElementById("komoditas-data").textContent);
 const DATA_PIHPS = JSON.parse(document.getElementById("pihps-data").textContent);
 const DATA = [...DATA_SUSENAS_SERUTI, ...DATA_PIHPS];
@@ -40,13 +38,13 @@ function render() {
       let hargaCell;
 
       if (item.Sumber === "PIHPS") {
-        // PIHPS: range historis + info harga terakhir
+        // PIHPS: range historis + informasi harga terakhir
         hargaCell = `
           <div>${formatRupiah(item.Min)} – ${formatRupiah(item.Max)}</div>
           <div class="harga-sub">Terakhir ${formatRupiah(item.HargaTerakhir)} · ${bulanLabel(item.BulanTerakhir)}</div>
         `;
       } else {
-        // Susenas / Seruti: cuma range batas wajar
+        // Susenas / Seruti: range batas wajar
         hargaCell = `${formatRupiah(item.Min)} – ${formatRupiah(item.Max)}`;
       }
 
