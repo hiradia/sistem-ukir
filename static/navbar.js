@@ -1,8 +1,6 @@
 const hamburgerBtn = document.getElementById("hamburger-btn");
 const navLinks = document.getElementById("nav-links");
 
-// Di halaman login, kedua elemen ini gak ada.
-// Guard biar gak error.
 if (hamburgerBtn && navLinks) {
   hamburgerBtn.addEventListener("click", () => {
     const sedangTerbuka = navLinks.classList.toggle("nav-open");
